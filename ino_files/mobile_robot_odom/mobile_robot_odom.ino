@@ -16,8 +16,8 @@
 int8_t L_FORW = 7;
 int8_t L_BACK = 8;
 int8_t L_enablePin = 3;
-int8_t L_encoderPin1 = 10;  //Encoder Output of pin1 must connected with intreput pin of Esp32.
-int8_t L_encoderPin2 = 11;
+int8_t L_encoderPin1 = 21;  //Encoder Output of pin1 must connected with intreput pin of Esp32.
+int8_t L_encoderPin2 = 20;
 //right wheel
 int8_t R_FORW = 6;
 int8_t R_BACK = 5;
@@ -38,7 +38,7 @@ float kp_l = 15;//15;
 float ki_l = 0; //5;
 float kd_l = 0; //0.5;
 //pid constants of right wheel
-float kp_r = 10;//10;
+float kp_r = 15;//10;
 float ki_r = 0;//5;
 float kd_r = 0;//0.1;
 
@@ -103,7 +103,7 @@ public:
     pinMode(Forward, OUTPUT);
     pinMode(Backward, OUTPUT);
     pinMode(EnablePin, OUTPUT);
-    pinMode(EncoderPinA, INPUT_PULLUP);
+    pinMode(EncoderPinA, INPUT);
     pinMode(EncoderPinB, INPUT_PULLUP);
   }
 
@@ -209,8 +209,8 @@ void setup() {
   leftWheel.initPID(kp_l, ki_l, kd_l);
   rightWheel.initPID(kp_r, ki_r, kd_r);
   //initializing interrupt functions for counting the encoder tick values
-  attachInterrupt(digitalPinToInterrupt(leftWheel.EncoderPinB), updateEncoderL, RISING);
-  attachInterrupt(digitalPinToInterrupt(rightWheel.EncoderPinA), updateEncoderR, RISING);
+  attachInterrupt(leftWheel.EncoderPinB, updateEncoderL, RISING);
+  attachInterrupt(rightWheel.EncoderPinB, updateEncoderR, RISING);
 
   allocator = rcl_get_default_allocator();
   //create init_options
@@ -331,13 +331,12 @@ void updateEncoderL() {
   encodervalue_l = leftWheel.EncoderCount;
 }
 
-//interrupt function for right wheel encoder
 void updateEncoderR() {
-  if (digitalRead(rightWheel.EncoderPinA) > digitalRead(rightWheel.EncoderPinB))
-    rightWheel.EncoderCount.data++;
-  else
+  int val = digitalRead(rightWheel.EncoderPinB);
+  if (val == LOW)
     rightWheel.EncoderCount.data--;
-  encodervalue_r = rightWheel.EncoderCount;
+  else
+    rightWheel.EncoderCount.data++;
 }
 
 //function which publishes wheel odometry.
