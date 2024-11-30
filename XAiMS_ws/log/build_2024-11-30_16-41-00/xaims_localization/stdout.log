@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target rviz_click_to_2d[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m
+[ 75%] Built target rviz_click_to_2d
+[100%] [32m[1mLinking CXX executable ekf_odom_pub[0m
+[100%] Built target ekf_odom_pub
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/ekf_odom_pub
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.sh
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.dsv
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.bash
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.sh
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.zsh
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.dsv
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+-- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.xml

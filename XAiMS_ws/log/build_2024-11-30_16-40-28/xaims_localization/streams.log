@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.284s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.877s] -- Found Python3: /home/aimsrog/anaconda3/bin/python3 (found version "3.9.13") found components: Interpreter 
+[0.935s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.006s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.080s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.091s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.104s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.221s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.346s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.379s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.452s] -- Looking for pthread.h
+[1.534s] -- Looking for pthread.h - found
+[1.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.607s] -- Found Threads: TRUE  
+[1.660s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.672s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.698s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.699s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.699s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.815s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.898s] -- Configuring done
+[1.910s] -- Generating done
+[1.911s] -- Build files have been written to: /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization
+[1.923s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization
+[1.925s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16
+[1.981s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m
+[1.981s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o[0m
+[2.188s] In file included from [01m[K/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/src/rviz_click_to_2d.cpp:6[m[K:
+[2.188s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.188s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.188s]       |  [01;35m[K^~~~~~~[m[K
+[2.191s] [01m[K/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.hpp: No such file or directory
+[2.191s]     6 | #include [01;31m[K<tf2_ros/transform_broadcaster.hpp>[m[K
+[2.191s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] compilation terminated.
+[2.195s] gmake[2]: *** [CMakeFiles/ekf_odom_pub.dir/build.make:76: CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o] Error 1
+[2.195s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ekf_odom_pub.dir/all] Error 2
+[2.195s] gmake[1]: *** Waiting for unfinished jobs....
+[9.898s] [ 75%] [32m[1mLinking CXX executable rviz_click_to_2d[0m
+[10.305s] [ 75%] Built target rviz_click_to_2d
+[10.306s] gmake: *** [Makefile:146: all] Error 2
+[10.309s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16

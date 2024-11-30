@@ -1,0 +1,2 @@
+Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization': /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization -- -j16 -l16
+Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization' returned '2': /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization -- -j16 -l16

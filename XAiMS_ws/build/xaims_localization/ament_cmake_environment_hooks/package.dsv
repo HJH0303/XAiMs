@@ -1,0 +1,4 @@
+source;share/xaims_localization/local_setup.bash
+source;share/xaims_localization/local_setup.dsv
+source;share/xaims_localization/local_setup.sh
+source;share/xaims_localization/local_setup.zsh

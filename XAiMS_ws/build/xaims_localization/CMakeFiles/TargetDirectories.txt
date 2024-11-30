@@ -1,0 +1,11 @@
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/uninstall.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/xaims_localization_uninstall.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/rviz_click_to_2d.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/ekf_odom_pub.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/test.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/edit_cache.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/rebuild_cache.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/list_install_components.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/install.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/install/local.dir
+/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/CMakeFiles/install/strip.dir

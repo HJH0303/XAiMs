@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization -DCMAKE_INSTALL_PREFIX=/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.944s] -- Found Python3: /home/aimsrog/anaconda3/bin/python3 (found version "3.9.13") found components: Interpreter 
+[1.065s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.132s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.142s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.154s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.253s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.260s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.420s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.502s] -- Looking for pthread.h
+[1.585s] -- Looking for pthread.h - found
+[1.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.668s] -- Found Threads: TRUE  
+[1.734s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.749s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.780s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.781s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.781s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.981s] -- Configuring done
+[1.991s] -- Generating done
+[1.992s] -- Build files have been written to: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization
+[2.004s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization -DCMAKE_INSTALL_PREFIX=/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization
+[2.007s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization -- -j16 -l16
+[2.073s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o[0m
+[2.300s] In file included from [01m[K/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/src/rviz_click_to_2d.cpp:6[m[K:
+[2.300s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.300s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.301s]       |  [01;35m[K^~~~~~~[m[K
+[10.364s] [100%] [32m[1mLinking CXX executable rviz_click_to_2d[0m
+[10.749s] [100%] Built target rviz_click_to_2d
+[10.761s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization -- -j16 -l16
+[10.810s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization
+[10.817s] -- Install configuration: ""
+[10.817s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/launch
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/rviz
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/path.sh
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/path.dsv
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.bash
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.sh
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.zsh
+[10.818s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.dsv
+[10.819s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/package.dsv
+[10.819s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+[10.819s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+[10.819s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+[10.819s] -- Installing: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/package.xml
+[10.821s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/build/xaims_localization

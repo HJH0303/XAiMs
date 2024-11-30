@@ -1,0 +1,16 @@
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/path.sh
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/environment/path.dsv
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.bash
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.sh
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.zsh
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/local_setup.dsv
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/package.dsv
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/install/xaims_localization/share/xaims_localization/package.xml

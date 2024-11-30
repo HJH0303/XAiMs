@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target ekf_odom_pub[0m
+[0.076s] [ 50%] Built target rviz_click_to_2d
+[0.078s] [100%] Built target ekf_odom_pub
+[0.091s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16
+[0.145s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization
+[0.152s] -- Install configuration: ""
+[0.152s] -- Execute custom install script
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/ekf_odom_pub
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.sh
+[0.154s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.dsv
+[0.154s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.bash
+[0.154s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.sh
+[0.154s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.zsh
+[0.154s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.dsv
+[0.154s] -- Symlinking: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv
+[0.164s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+[0.164s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+[0.165s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+[0.165s] -- Up-to-date symlink: /home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.xml
+[0.167s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization

@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16
+[0.078s] [ 75%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m
+[0.078s] [ 75%] Built target rviz_click_to_2d
+[0.291s] [01m[K/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktransform_broadcaster.h: No such file or directory
+[0.291s]     6 | #include [01;31m[K<transform_broadcaster.h>[m[K
+[0.292s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.292s] compilation terminated.
+[0.295s] gmake[2]: *** [CMakeFiles/ekf_odom_pub.dir/build.make:76: CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o] Error 1
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/ekf_odom_pub.dir/all] Error 2
+[0.296s] gmake: *** [Makefile:146: all] Error 2
+[0.298s] Invoked command in '/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aimsrog/turtlebot3_ws/install/turtlebot3_teleop:/home/aimsrog/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization -- -j16 -l16
