@@ -1,0 +1,24 @@
+[ 50%] Built target ekf_odom_pub
+[100%] Built target rviz_click_to_2d
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/ekf_odom_pub
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/launch/launch1.py
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/params/ekf.yaml
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/params/ekf2.yaml
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.sh
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.dsv
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.bash
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.sh
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.zsh
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.xml

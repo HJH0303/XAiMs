@@ -1,0 +1,1 @@
+/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2/ament_cmake_core/monicar2_navigation2Config-version.cmake

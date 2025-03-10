@@ -1,0 +1,35 @@
+[1.846s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[2.529s] [35m[1mScanning dependencies of target ekf_odom_pub[0m
+[2.620s] [ 33%] Built target pose_estimate_publisher
+[3.117s] [ 66%] Built target rviz_click_to_2d
+[3.307s] [ 83%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m
+[37.958s] [100%] [32m[1mLinking CXX executable ekf_odom_pub[0m
+[39.941s] [100%] Built target ekf_odom_pub
+[40.102s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[40.336s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization
+[40.386s] -- Install configuration: ""
+[40.390s] -- Execute custom install script
+[40.392s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d
+[40.397s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/ekf_odom_pub
+[40.397s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/pose_estimate_publisher
+[40.403s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/launch/launch1.py
+[40.406s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/launch/launch2.py
+[40.413s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/params/ekf.yaml
+[40.414s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/params/ekf2.yaml
+[40.415s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/params/ekf3.yaml
+[40.418s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization
+[40.421s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization
+[40.426s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh
+[40.428s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv
+[40.429s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.sh
+[40.432s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.dsv
+[40.433s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.bash
+[40.436s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.sh
+[40.440s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.zsh
+[40.442s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.dsv
+[40.443s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv
+[40.499s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization
+[40.502s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake
+[40.503s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake
+[40.505s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.xml
+[40.523s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization

@@ -1,0 +1,29 @@
+[0.632s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[1.187s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.538s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.645s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.579s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.373s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.596s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[11.014s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[11.164s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[14.647s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[15.965s] -- Configuring done
+[16.900s] -- Generating done
+[16.968s] -- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization
+[17.181s] [35m[1mScanning dependencies of target odom_data_saver[0m
+[17.389s] [ 25%] Built target ekf_odom_pub
+[17.533s] [ 50%] Built target pose_estimate_publisher
+[18.118s] [ 62%] [32mBuilding CXX object CMakeFiles/odom_data_saver.dir/src/odom_data_saver.cpp.o[0m
+[28.132s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/odom_data_saver.cpp:[m[K In constructor ‘[01m[KOdomDataSaver::OdomDataSaver()[m[K’:
+[28.133s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/odom_data_saver.cpp:17:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+[28.133s]    17 |         std::[01;31m[Kfilesystem[m[K::create_directories(directory);
+[28.134s]       |              [01;31m[K^~~~~~~~~~[m[K
+[36.735s] make[2]: *** [CMakeFiles/odom_data_saver.dir/build.make:63: CMakeFiles/odom_data_saver.dir/src/odom_data_saver.cpp.o] Error 1
+[36.737s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/odom_data_saver.dir/all] Error 2
+[36.737s] make: *** [Makefile:141: all] Error 2
+[36.756s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4

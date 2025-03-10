@@ -1,0 +1,60 @@
+[0.390s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup
+[2.816s] -- The C compiler identification is GNU 9.4.0
+[4.392s] -- The CXX compiler identification is GNU 9.4.0
+[4.728s] -- Check for working C compiler: /usr/bin/cc
+[5.600s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.750s] -- Detecting C compiler ABI info
+[6.626s] -- Detecting C compiler ABI info - done
+[6.853s] -- Detecting C compile features
+[6.854s] -- Detecting C compile features - done
+[6.870s] -- Check for working CXX compiler: /usr/bin/c++
+[7.829s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.834s] -- Detecting CXX compiler ABI info
+[8.514s] -- Detecting CXX compiler ABI info - done
+[8.579s] -- Detecting CXX compile features
+[8.582s] -- Detecting CXX compile features - done
+[8.754s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.206s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.790s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[13.685s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.028s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.556s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.873s] -- Found FastRTPS: /opt/ros/foxy/include  
+[17.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.663s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[19.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.683s] -- Looking for pthread.h
+[20.464s] -- Looking for pthread.h - found
+[20.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.258s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[21.260s] -- Looking for pthread_create in pthreads
+[22.108s] -- Looking for pthread_create in pthreads - not found
+[22.109s] -- Looking for pthread_create in pthread
+[22.679s] -- Looking for pthread_create in pthread - found
+[22.688s] -- Found Threads: TRUE  
+[25.194s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[25.503s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[25.693s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[25.859s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[30.578s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[31.880s] -- Configuring done
+[31.911s] -- Generating done
+[31.938s] -- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup
+[32.042s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup
+[32.053s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup -- -j4 -l4
+[32.430s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup -- -j4 -l4
+[32.508s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup
+[32.609s] -- Install configuration: ""
+[32.615s] -- Execute custom install script
+[32.620s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/launch/xaims_bringup.launch.py
+[32.847s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[32.849s]   ament_cmake_symlink_install_directory() can't find
+[32.849s]   '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup/rviz'
+[32.850s] Call Stack (most recent call first):
+[32.850s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[32.851s]   cmake_install.cmake:41 (include)
+[32.851s] 
+[32.851s] 
+[32.860s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup

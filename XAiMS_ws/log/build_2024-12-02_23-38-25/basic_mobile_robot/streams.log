@@ -1,0 +1,35 @@
+[0.463s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot -- -j4 -l4
+[2.280s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot -- -j4 -l4
+[2.854s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot
+[3.048s] -- Install configuration: ""
+[3.080s] -- Execute custom install script
+[3.106s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[3.130s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+[3.133s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py
+[3.139s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/ekfnode.launch.py
+[3.150s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+[3.164s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+[3.175s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+[3.193s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+[3.200s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+[3.205s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+[3.246s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+[3.252s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+[3.253s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/params/ekf.yaml
+[3.258s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[3.283s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[3.286s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[3.302s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[3.303s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[3.332s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[3.333s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[3.333s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[3.333s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[3.334s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[3.334s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[3.336s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[3.404s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[3.407s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[3.411s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[3.416s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[3.428s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot

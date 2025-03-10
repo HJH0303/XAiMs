@@ -1,0 +1,323 @@
+[0.960s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.961s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffaed08940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffaed08940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffaec53d30>)
+[1.764s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.766s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aims_xavier/XAiMs/XAiMS_ws'
+[1.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.823s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extension 'ignore'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extension 'ignore_ament_install'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extensions ['colcon_pkg']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extension 'colcon_pkg'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extensions ['colcon_meta']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extension 'colcon_meta'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extensions ['ros']
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/basic_mobile_robot) by extension 'ros'
+[1.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/basic_mobile_robot' with type 'ros.ament_cmake' and name 'basic_mobile_robot'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[1.859s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ignore_ament_install'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['colcon_pkg']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'colcon_pkg'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['colcon_meta']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'colcon_meta'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extensions ['ros']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-imu-bno055) by extension 'ros'
+[1.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-imu-bno055' with type 'ros.ament_cmake' and name 'imu_bno055'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extensions ['ignore', 'ignore_ament_install']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extension 'ignore'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extension 'ignore_ament_install'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extensions ['colcon_pkg']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extensions ['ros']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/xaims_localization) by extension 'ros'
+[1.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xaims_localization' with type 'ros.ament_cmake' and name 'xaims_localization'
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.988s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/aims_xavier/ydlidar_ros2_ws/install
+[1.991s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aims_xavier/microros_ws/install
+[1.994s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/aims_xavier/XAiMs/XAiMS_ws/install
+[2.001s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/foxy
+[2.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_args' from command line to 'None'
+[2.371s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_target' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'basic_mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.373s] DEBUG:colcon.colcon_core.verb:Building package 'basic_mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot', 'merge_install': False, 'path': '/home/aims_xavier/XAiMs/XAiMS_ws/src/basic_mobile_robot', 'symlink_install': True, 'test_result_base': None}
+[2.374s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[2.375s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.376s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055', 'merge_install': False, 'path': '/home/aims_xavier/XAiMs/XAiMS_ws/src/bno055', 'symlink_install': True, 'test_result_base': None}
+[2.377s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_args' from command line to 'None'
+[2.378s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_target' from command line to 'None'
+[2.378s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.378s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[2.378s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_clean_first' from command line to 'False'
+[2.378s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'cmake_force_configure' from command line to 'False'
+[2.379s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'ament_cmake_args' from command line to 'None'
+[2.379s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[2.379s] Level 5:colcon.colcon_core.verb:set package 'imu_bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.379s] DEBUG:colcon.colcon_core.verb:Building package 'imu_bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055', 'merge_install': False, 'path': '/home/aims_xavier/XAiMs/XAiMS_ws/src/ros-imu-bno055', 'symlink_install': True, 'test_result_base': None}
+[2.381s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_args' from command line to 'None'
+[2.381s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_target' from command line to 'None'
+[2.381s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.381s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_clean_first' from command line to 'False'
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'cmake_force_configure' from command line to 'False'
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'ament_cmake_args' from command line to 'None'
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[2.382s] Level 5:colcon.colcon_core.verb:set package 'xaims_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.383s] DEBUG:colcon.colcon_core.verb:Building package 'xaims_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization', 'merge_install': False, 'path': '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization', 'symlink_install': True, 'test_result_base': None}
+[2.383s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/basic_mobile_robot' with build type 'ament_cmake'
+[2.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/basic_mobile_robot'
+[2.400s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.446s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/bno055' with build type 'ament_python'
+[2.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[2.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.528s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/ros-imu-bno055' with build type 'ament_cmake'
+[2.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/ros-imu-bno055'
+[2.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.622s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization' with build type 'ament_cmake'
+[2.625s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization'
+[2.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot -- -j4 -l4
+[4.557s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aims_xavier/XAiMs/XAiMS_ws/src/bno055'
+[4.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055 -- -j4 -l4
+[4.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot -- -j4 -l4
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[5.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot
+[6.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055 -- -j4 -l4
+[6.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055
+[6.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_mobile_robot)
+[6.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/basic_mobile_robot
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot' for CMake module files
+[6.297s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot' for CMake config files
+[6.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_mobile_robot', 'cmake_prefix_path')
+[6.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.ps1'
+[6.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.dsv'
+[6.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.sh'
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/bin'
+[6.394s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/lib/pkgconfig/basic_mobile_robot.pc'
+[6.397s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/lib/python3.8/site-packages'
+[6.399s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/bin'
+[6.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.ps1'
+[6.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv'
+[6.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.sh'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.bash'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.zsh'
+[6.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/colcon-core/packages/basic_mobile_robot)
+[6.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_bno055)
+[6.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055
+[6.496s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055' for CMake module files
+[6.507s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055' for CMake config files
+[6.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_bno055', 'cmake_prefix_path')
+[6.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.ps1'
+[6.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.dsv'
+[6.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.sh'
+[6.643s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib'
+[6.654s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/bin'
+[6.661s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib/pkgconfig/imu_bno055.pc'
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib/python3.8/site-packages'
+[6.675s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/bin'
+[6.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.ps1'
+[6.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.dsv'
+[6.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.sh'
+[6.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.bash'
+[6.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.zsh'
+[6.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/colcon-core/packages/imu_bno055)
+[6.783s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_bno055)
+[6.785s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055' for CMake module files
+[6.791s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055' for CMake config files
+[6.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_bno055', 'cmake_prefix_path')
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.ps1'
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.dsv'
+[6.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/hook/cmake_prefix_path.sh'
+[6.839s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/bin'
+[6.868s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib/pkgconfig/imu_bno055.pc'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib/python3.8/site-packages'
+[6.893s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/bin'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.ps1'
+[6.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.dsv'
+[6.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.sh'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.bash'
+[6.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.zsh'
+[6.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/colcon-core/packages/imu_bno055)
+[7.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic_mobile_robot)
+[7.034s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot' for CMake module files
+[7.037s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot' for CMake config files
+[7.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic_mobile_robot', 'cmake_prefix_path')
+[7.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.ps1'
+[7.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.dsv'
+[7.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/hook/cmake_prefix_path.sh'
+[7.092s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/bin'
+[7.092s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/lib/pkgconfig/basic_mobile_robot.pc'
+[7.093s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/lib/python3.8/site-packages'
+[7.094s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/bin'
+[7.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.ps1'
+[7.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.sh'
+[7.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.bash'
+[7.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.zsh'
+[7.199s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot/share/colcon-core/packages/basic_mobile_robot)
+[8.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055': PYTHONPATH=/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/build --no-deps symlink_data
+[11.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath_develop')
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/share/bno055/hook/pythonpath_develop.ps1'
+[11.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055' returned '0': PYTHONPATH=/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/build --no-deps symlink_data
+[11.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/share/bno055/hook/pythonpath_develop.dsv'
+[11.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/share/bno055/hook/pythonpath_develop.sh'
+[11.643s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055' for CMake module files
+[11.649s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055' for CMake config files
+[11.659s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib'
+[11.664s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/bin'
+[11.665s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[11.670s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages'
+[11.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[11.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[11.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[11.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[11.680s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/bin'
+[11.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[11.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/package.ps1'
+[11.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/package.dsv'
+[11.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/package.sh'
+[11.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/package.bash'
+[11.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/bno055/package.zsh'
+[11.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/share/colcon-core/packages/bno055)
+[40.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[40.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization
+[41.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xaims_localization)
+[41.175s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization' for CMake module files
+[41.178s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization' for CMake config files
+[41.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization
+[41.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('xaims_localization', 'cmake_prefix_path')
+[41.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.ps1'
+[41.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.dsv'
+[41.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.sh'
+[41.205s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib'
+[41.205s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/bin'
+[41.206s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/pkgconfig/xaims_localization.pc'
+[41.210s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/python3.8/site-packages'
+[41.211s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/bin'
+[41.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.ps1'
+[41.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv'
+[41.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.sh'
+[41.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.bash'
+[41.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.zsh'
+[41.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/colcon-core/packages/xaims_localization)
+[41.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xaims_localization)
+[41.486s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization' for CMake module files
+[41.491s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization' for CMake config files
+[41.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('xaims_localization', 'cmake_prefix_path')
+[41.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.ps1'
+[41.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.dsv'
+[41.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/hook/cmake_prefix_path.sh'
+[41.513s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib'
+[41.514s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/bin'
+[41.514s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/pkgconfig/xaims_localization.pc'
+[41.516s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/python3.8/site-packages'
+[41.517s] Level 1:colcon.colcon_core.environment:checking '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/bin'
+[41.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.ps1'
+[41.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv'
+[41.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.sh'
+[41.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.bash'
+[41.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.zsh'
+[41.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/colcon-core/packages/xaims_localization)
+[41.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[41.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[41.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[41.545s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[41.605s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[41.607s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[41.608s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[41.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[41.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aims_xavier/XAiMs/XAiMS_ws/install/local_setup.ps1'
+[41.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aims_xavier/XAiMs/XAiMS_ws/install/_local_setup_util_ps1.py'
+[41.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aims_xavier/XAiMs/XAiMS_ws/install/setup.ps1'
+[41.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aims_xavier/XAiMs/XAiMS_ws/install/local_setup.sh'
+[41.787s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aims_xavier/XAiMs/XAiMS_ws/install/_local_setup_util_sh.py'
+[41.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aims_xavier/XAiMs/XAiMS_ws/install/setup.sh'
+[41.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aims_xavier/XAiMs/XAiMS_ws/install/local_setup.bash'
+[41.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aims_xavier/XAiMs/XAiMS_ws/install/setup.bash'
+[41.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aims_xavier/XAiMs/XAiMS_ws/install/local_setup.zsh'
+[41.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aims_xavier/XAiMs/XAiMS_ws/install/setup.zsh'

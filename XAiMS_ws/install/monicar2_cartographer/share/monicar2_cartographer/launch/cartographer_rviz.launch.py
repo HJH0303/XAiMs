@@ -1,0 +1,1 @@
+/home/aims_xavier/XAiMs/XAiMS_ws/src/monicar2_cartographer/launch/cartographer_rviz.launch.py

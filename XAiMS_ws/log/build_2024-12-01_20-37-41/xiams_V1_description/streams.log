@@ -1,0 +1,35 @@
+[1.143s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description': /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xiams_V1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xiams_V1_description
+[1.740s] -- The C compiler identification is GNU 9.4.0
+[2.166s] -- The CXX compiler identification is GNU 9.4.0
+[2.205s] -- Check for working C compiler: /usr/bin/cc
+[2.637s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.642s] -- Detecting C compiler ABI info
+[3.029s] -- Detecting C compiler ABI info - done
+[3.113s] -- Detecting C compile features
+[3.116s] -- Detecting C compile features - done
+[3.147s] -- Check for working CXX compiler: /usr/bin/c++
+[3.578s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.584s] -- Detecting CXX compiler ABI info
+[4.160s] -- Detecting CXX compiler ABI info - done
+[4.239s] -- Detecting CXX compile features
+[4.242s] -- Detecting CXX compile features - done
+[4.292s] CMake Error at CMakeLists.txt:10 (find_package):
+[4.292s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.293s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.294s]   CMake did not find one.
+[4.294s] 
+[4.295s]   Could not find a package configuration file provided by "catkin" with any
+[4.295s]   of the following names:
+[4.295s] 
+[4.296s]     catkinConfig.cmake
+[4.296s]     catkin-config.cmake
+[4.296s] 
+[4.297s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.297s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.297s]   provides a separate development package or SDK, be sure it has been
+[4.298s]   installed.
+[4.298s] 
+[4.299s] 
+[4.299s] -- Configuring incomplete, errors occurred!
+[4.299s] See also "/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description/CMakeFiles/CMakeOutput.log".
+[4.312s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description' returned '1': /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xiams_V1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xiams_V1_description

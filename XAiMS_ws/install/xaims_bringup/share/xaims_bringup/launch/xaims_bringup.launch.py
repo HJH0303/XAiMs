@@ -1,0 +1,1 @@
+/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup/launch/xaims_bringup.launch.py

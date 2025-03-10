@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o"
-  "CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o.d"
   "ekf_odom_pub"
   "ekf_odom_pub.pdb"
 )

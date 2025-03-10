@@ -1,0 +1,72 @@
+[1.635s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/ros-imu-bno055 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055
+[3.011s] -- The C compiler identification is GNU 9.4.0
+[3.555s] -- The CXX compiler identification is GNU 9.4.0
+[3.597s] -- Check for working C compiler: /usr/bin/cc
+[4.032s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.042s] -- Detecting C compiler ABI info
+[4.518s] -- Detecting C compiler ABI info - done
+[4.645s] -- Detecting C compile features
+[4.648s] -- Detecting C compile features - done
+[4.667s] -- Check for working CXX compiler: /usr/bin/c++
+[5.297s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.303s] -- Detecting CXX compiler ABI info
+[5.945s] -- Detecting CXX compiler ABI info - done
+[5.990s] -- Detecting CXX compile features
+[5.992s] -- Detecting CXX compile features - done
+[6.012s] -- Found ros_environment: 2.5.1 (/opt/ros/foxy/share/ros_environment/cmake)
+[6.171s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.513s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.513s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.738s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.244s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[9.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.765s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[11.171s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.323s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.552s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.575s] -- Looking for pthread.h
+[15.100s] -- Looking for pthread.h - found
+[15.102s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.788s] -- Looking for pthread_create in pthreads
+[16.415s] -- Looking for pthread_create in pthreads - not found
+[16.416s] -- Looking for pthread_create in pthread
+[16.832s] -- Looking for pthread_create in pthread - found
+[16.838s] -- Found Threads: TRUE  
+[19.322s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[20.360s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[20.662s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[21.485s] -- Configuring done
+[21.540s] -- Generating done
+[21.579s] -- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055
+[21.632s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/ros-imu-bno055 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055
+[21.636s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055 -- -j4 -l4
+[21.877s] [35m[1mScanning dependencies of target bno055_i2c_node[0m
+[22.443s] [ 25%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_driver.cpp.o[0m
+[22.571s] [ 50%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/watchdog.cpp.o[0m
+[22.578s] [ 75%] [32mBuilding CXX object CMakeFiles/bno055_i2c_node.dir/src/bno055_i2c_node_ros2.cpp.o[0m
+[41.622s] [100%] [32m[1mLinking CXX executable bno055_i2c_node[0m
+[43.168s] [100%] Built target bno055_i2c_node
+[43.321s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055 -- -j4 -l4
+[43.331s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055
+[43.373s] -- Install configuration: ""
+[43.375s] -- Execute custom install script
+[43.378s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/lib/imu_bno055/bno055_i2c_node
+[43.425s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/ament_index/resource_index/package_run_dependencies/imu_bno055
+[43.470s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/ament_index/resource_index/parent_prefix_path/imu_bno055
+[43.516s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.sh
+[43.561s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/environment/ament_prefix_path.dsv
+[43.608s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/environment/path.sh
+[43.653s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/environment/path.dsv
+[43.702s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/local_setup.bash
+[43.747s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/local_setup.sh
+[43.793s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/local_setup.zsh
+[43.839s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/local_setup.dsv
+[43.886s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.dsv
+[43.933s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/ament_index/resource_index/packages/imu_bno055
+[43.980s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config.cmake
+[44.029s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/cmake/imu_bno055Config-version.cmake
+[44.074s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055/share/imu_bno055/package.xml
+[44.135s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055

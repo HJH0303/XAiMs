@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/launch/xaims_bringup.launch.py
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/package_run_dependencies/xaims_bringup
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/parent_prefix_path/xaims_bringup
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.bash
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.zsh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/package.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/packages/xaims_bringup
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/cmake/xaims_bringupConfig.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/cmake/xaims_bringupConfig-version.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/package.xml

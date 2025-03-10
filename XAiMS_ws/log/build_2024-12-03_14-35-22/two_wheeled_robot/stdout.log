@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/xaims_rviz.launch.py
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link2_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link3_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_1_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_2_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_3_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_4_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_5_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_6_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_7_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_8_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/left_motor_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/left_wheel_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/lidar_link_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/right_motor_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/right_wheel_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_1_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_2_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_3_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_4_1.stl
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.gazebo
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.trans
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.urdf
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.xacro
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/materials.xacro
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml

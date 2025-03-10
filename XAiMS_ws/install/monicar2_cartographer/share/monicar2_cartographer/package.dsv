@@ -1,0 +1,8 @@
+source;share/monicar2_cartographer/hook/cmake_prefix_path.ps1
+source;share/monicar2_cartographer/hook/cmake_prefix_path.dsv
+source;share/monicar2_cartographer/hook/cmake_prefix_path.sh
+source;share/monicar2_cartographer/local_setup.bash
+source;share/monicar2_cartographer/local_setup.dsv
+source;share/monicar2_cartographer/local_setup.ps1
+source;share/monicar2_cartographer/local_setup.sh
+source;share/monicar2_cartographer/local_setup.zsh

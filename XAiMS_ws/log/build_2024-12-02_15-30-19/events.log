@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000683] (-) JobUnselected: {'identifier': 'basic_mobile_robot'}
+[0.001415] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002389] (xaims_localization) JobQueued: {'identifier': 'xaims_localization', 'dependencies': OrderedDict()}
+[0.002545] (xaims_localization) JobStarted: {'identifier': 'xaims_localization'}
+[0.064773] (xaims_localization) JobProgress: {'identifier': 'xaims_localization', 'progress': 'cmake'}
+[0.069371] (xaims_localization) JobProgress: {'identifier': 'xaims_localization', 'progress': 'build'}
+[0.073165] (xaims_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization', '--', '-j4', '-l4'], 'cwd': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aims_xavier'), ('SSH_AGENT_PID', '4039'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/aims_xavier/microros_ws/install/micro_ros_agent/lib:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/aims_xavier'), ('OLDPWD', '/home/aims_xavier/XAiMs'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '3932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4690'), ('_colcon_cd_root', '/home/aims_xavier/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install:/home/aims_xavier/microros_ws/install:/home/aims_xavier/XAiMs/XAiMS_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aims_xavier'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421520055746'), ('JOURNAL_STREAM', '8:63975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aims_xavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4074,unix/ubuntu:/tmp/.ICE-unix/4074'), ('INVOCATION_ID', '64ae0d6e5e1a4624bf51b453fdf14b51'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d24bd5a2-354d-43db-91e3-929850bdfcea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[0.102481] (-) TimerEvent: {}
+[0.203981] (-) TimerEvent: {}
+[0.304975] (-) TimerEvent: {}
+[0.342617] (xaims_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ekf_odom_pub\x1b[0m\n'}
+[0.405207] (-) TimerEvent: {}
+[0.437361] (xaims_localization) StdoutLine: {'line': b'[ 50%] Built target rviz_click_to_2d\n'}
+[0.505432] (-) TimerEvent: {}
+[0.564163] (xaims_localization) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o\x1b[0m\n'}
+[0.605677] (-) TimerEvent: {}
+[0.706945] (-) TimerEvent: {}
+[0.809570] (-) TimerEvent: {}
+[0.911609] (-) TimerEvent: {}
+[1.012583] (-) TimerEvent: {}
+[1.113644] (-) TimerEvent: {}
+[1.215794] (-) TimerEvent: {}
+[1.317427] (-) TimerEvent: {}
+[1.420043] (-) TimerEvent: {}
+[1.521188] (-) TimerEvent: {}
+[1.622850] (-) TimerEvent: {}
+[1.724516] (-) TimerEvent: {}
+[1.825503] (-) TimerEvent: {}
+[1.926487] (-) TimerEvent: {}
+[2.027593] (-) TimerEvent: {}
+[2.128495] (-) TimerEvent: {}
+[2.229493] (-) TimerEvent: {}
+[2.330783] (-) TimerEvent: {}
+[2.431740] (-) TimerEvent: {}
+[2.532817] (-) TimerEvent: {}
+[2.633809] (-) TimerEvent: {}
+[2.734854] (-) TimerEvent: {}
+[2.835815] (-) TimerEvent: {}
+[2.937317] (-) TimerEvent: {}
+[3.038733] (-) TimerEvent: {}
+[3.139941] (-) TimerEvent: {}
+[3.240955] (-) TimerEvent: {}
+[3.341924] (-) TimerEvent: {}
+[3.442870] (-) TimerEvent: {}
+[3.543861] (-) TimerEvent: {}
+[3.644836] (-) TimerEvent: {}
+[3.745980] (-) TimerEvent: {}
+[3.990848] (-) TimerEvent: {}
+[4.091727] (-) TimerEvent: {}
+[4.192771] (-) TimerEvent: {}
+[4.293711] (-) TimerEvent: {}
+[4.394633] (-) TimerEvent: {}
+[4.495562] (-) TimerEvent: {}
+[4.596544] (-) TimerEvent: {}
+[4.697542] (-) TimerEvent: {}
+[4.799648] (-) TimerEvent: {}
+[4.900759] (-) TimerEvent: {}
+[5.001835] (-) TimerEvent: {}
+[5.102739] (-) TimerEvent: {}
+[5.204001] (-) TimerEvent: {}
+[5.305038] (-) TimerEvent: {}
+[5.405911] (-) TimerEvent: {}
+[5.507244] (-) TimerEvent: {}
+[5.609787] (-) TimerEvent: {}
+[5.710853] (-) TimerEvent: {}
+[5.811776] (-) TimerEvent: {}
+[5.912805] (-) TimerEvent: {}
+[6.013955] (-) TimerEvent: {}
+[6.114943] (-) TimerEvent: {}
+[6.215900] (-) TimerEvent: {}
+[6.316930] (-) TimerEvent: {}
+[6.417896] (-) TimerEvent: {}
+[6.519400] (-) TimerEvent: {}
+[6.620278] (-) TimerEvent: {}
+[6.721276] (-) TimerEvent: {}
+[6.822183] (-) TimerEvent: {}
+[6.923120] (-) TimerEvent: {}
+[7.024066] (-) TimerEvent: {}
+[7.129007] (-) TimerEvent: {}
+[7.229999] (-) TimerEvent: {}
+[7.330888] (-) TimerEvent: {}
+[7.431883] (-) TimerEvent: {}
+[7.532910] (-) TimerEvent: {}
+[7.633864] (-) TimerEvent: {}
+[7.734832] (-) TimerEvent: {}
+[7.836585] (-) TimerEvent: {}
+[7.937468] (-) TimerEvent: {}
+[8.038365] (-) TimerEvent: {}
+[8.139232] (-) TimerEvent: {}
+[8.240186] (-) TimerEvent: {}
+[8.341150] (-) TimerEvent: {}
+[8.442113] (-) TimerEvent: {}
+[8.543179] (-) TimerEvent: {}
+[8.644261] (-) TimerEvent: {}
+[8.745376] (-) TimerEvent: {}
+[8.846233] (-) TimerEvent: {}
+[8.947154] (-) TimerEvent: {}
+[9.048141] (-) TimerEvent: {}
+[9.149165] (-) TimerEvent: {}
+[9.250078] (-) TimerEvent: {}
+[9.350994] (-) TimerEvent: {}
+[9.451961] (-) TimerEvent: {}
+[9.553027] (-) TimerEvent: {}
+[9.653995] (-) TimerEvent: {}
+[9.754994] (-) TimerEvent: {}
+[9.856030] (-) TimerEvent: {}
+[9.956979] (-) TimerEvent: {}
+[10.057827] (-) TimerEvent: {}
+[10.158731] (-) TimerEvent: {}
+[10.259746] (-) TimerEvent: {}
+[10.360686] (-) TimerEvent: {}
+[10.461760] (-) TimerEvent: {}
+[10.562594] (-) TimerEvent: {}
+[10.663538] (-) TimerEvent: {}
+[10.764535] (-) TimerEvent: {}
+[10.865439] (-) TimerEvent: {}
+[10.966466] (-) TimerEvent: {}
+[11.067428] (-) TimerEvent: {}
+[11.168432] (-) TimerEvent: {}
+[11.269456] (-) TimerEvent: {}
+[11.370373] (-) TimerEvent: {}
+[11.471312] (-) TimerEvent: {}
+[11.572357] (-) TimerEvent: {}
+[11.673359] (-) TimerEvent: {}
+[11.774508] (-) TimerEvent: {}
+[11.875365] (-) TimerEvent: {}
+[11.977799] (-) TimerEvent: {}
+[12.078774] (-) TimerEvent: {}
+[12.179715] (-) TimerEvent: {}
+[12.281324] (-) TimerEvent: {}
+[12.382305] (-) TimerEvent: {}
+[12.483228] (-) TimerEvent: {}
+[12.584105] (-) TimerEvent: {}
+[12.685119] (-) TimerEvent: {}
+[12.786026] (-) TimerEvent: {}
+[12.886933] (-) TimerEvent: {}
+[12.987904] (-) TimerEvent: {}
+[13.089351] (-) TimerEvent: {}
+[13.190311] (-) TimerEvent: {}
+[13.331415] (-) TimerEvent: {}
+[13.432382] (-) TimerEvent: {}
+[13.533350] (-) TimerEvent: {}
+[13.634335] (-) TimerEvent: {}
+[13.735238] (-) TimerEvent: {}
+[13.836131] (-) TimerEvent: {}
+[13.937222] (-) TimerEvent: {}
+[14.043270] (-) TimerEvent: {}
+[14.145288] (-) TimerEvent: {}
+[14.246257] (-) TimerEvent: {}
+[14.347181] (-) TimerEvent: {}
+[14.448251] (-) TimerEvent: {}
+[14.549191] (-) TimerEvent: {}
+[14.650174] (-) TimerEvent: {}
+[14.751170] (-) TimerEvent: {}
+[14.852137] (-) TimerEvent: {}
+[14.953276] (-) TimerEvent: {}
+[15.054292] (-) TimerEvent: {}
+[15.155329] (-) TimerEvent: {}
+[15.256428] (-) TimerEvent: {}
+[15.357335] (-) TimerEvent: {}
+[15.458325] (-) TimerEvent: {}
+[15.559376] (-) TimerEvent: {}
+[15.660384] (-) TimerEvent: {}
+[15.761394] (-) TimerEvent: {}
+[15.862417] (-) TimerEvent: {}
+[15.963361] (-) TimerEvent: {}
+[16.064468] (-) TimerEvent: {}
+[16.165359] (-) TimerEvent: {}
+[16.266427] (-) TimerEvent: {}
+[16.367428] (-) TimerEvent: {}
+[16.468407] (-) TimerEvent: {}
+[16.569394] (-) TimerEvent: {}
+[16.670413] (-) TimerEvent: {}
+[16.771622] (-) TimerEvent: {}
+[16.872915] (-) TimerEvent: {}
+[16.974150] (-) TimerEvent: {}
+[17.076111] (-) TimerEvent: {}
+[17.177765] (-) TimerEvent: {}
+[17.278763] (-) TimerEvent: {}
+[17.379878] (-) TimerEvent: {}
+[17.480921] (-) TimerEvent: {}
+[17.581853] (-) TimerEvent: {}
+[17.682836] (-) TimerEvent: {}
+[17.785956] (-) TimerEvent: {}
+[17.886996] (-) TimerEvent: {}
+[17.987914] (-) TimerEvent: {}
+[18.088961] (-) TimerEvent: {}
+[18.189888] (-) TimerEvent: {}
+[18.429633] (-) TimerEvent: {}
+[18.530510] (-) TimerEvent: {}
+[18.631428] (-) TimerEvent: {}
+[18.732433] (-) TimerEvent: {}
+[18.833686] (-) TimerEvent: {}
+[18.934725] (-) TimerEvent: {}
+[19.035674] (-) TimerEvent: {}
+[19.136717] (-) TimerEvent: {}
+[19.237676] (-) TimerEvent: {}
+[19.338623] (-) TimerEvent: {}
+[19.439644] (-) TimerEvent: {}
+[19.540507] (-) TimerEvent: {}
+[19.641469] (-) TimerEvent: {}
+[19.742384] (-) TimerEvent: {}
+[19.843399] (-) TimerEvent: {}
+[19.944387] (-) TimerEvent: {}
+[20.045313] (-) TimerEvent: {}
+[20.146221] (-) TimerEvent: {}
+[20.247204] (-) TimerEvent: {}
+[20.348114] (-) TimerEvent: {}
+[20.449036] (-) TimerEvent: {}
+[20.550807] (-) TimerEvent: {}
+[20.651657] (-) TimerEvent: {}
+[20.752879] (-) TimerEvent: {}
+[20.853758] (-) TimerEvent: {}
+[20.955478] (-) TimerEvent: {}
+[21.056439] (-) TimerEvent: {}
+[21.157460] (-) TimerEvent: {}
+[21.258972] (-) TimerEvent: {}
+[21.359820] (-) TimerEvent: {}
+[21.461031] (-) TimerEvent: {}
+[21.562295] (-) TimerEvent: {}
+[21.663274] (-) TimerEvent: {}
+[21.764197] (-) TimerEvent: {}
+[21.865457] (-) TimerEvent: {}
+[21.966464] (-) TimerEvent: {}
+[22.067448] (-) TimerEvent: {}
+[22.168623] (-) TimerEvent: {}
+[22.269562] (-) TimerEvent: {}
+[22.370521] (-) TimerEvent: {}
+[22.471449] (-) TimerEvent: {}
+[22.572452] (-) TimerEvent: {}
+[22.673312] (-) TimerEvent: {}
+[22.774289] (-) TimerEvent: {}
+[22.875232] (-) TimerEvent: {}
+[22.976159] (-) TimerEvent: {}
+[23.077171] (-) TimerEvent: {}
+[23.178198] (-) TimerEvent: {}
+[23.279088] (-) TimerEvent: {}
+[23.433954] (-) TimerEvent: {}
+[23.534962] (-) TimerEvent: {}
+[23.635903] (-) TimerEvent: {}
+[23.736925] (-) TimerEvent: {}
+[23.838387] (-) TimerEvent: {}
+[23.939586] (-) TimerEvent: {}
+[24.040582] (-) TimerEvent: {}
+[24.141842] (-) TimerEvent: {}
+[24.242982] (-) TimerEvent: {}
+[24.344896] (-) TimerEvent: {}
+[24.447201] (-) TimerEvent: {}
+[24.548827] (-) TimerEvent: {}
+[24.649812] (-) TimerEvent: {}
+[24.750943] (-) TimerEvent: {}
+[24.852785] (-) TimerEvent: {}
+[24.953815] (-) TimerEvent: {}
+[25.055311] (-) TimerEvent: {}
+[25.156875] (-) TimerEvent: {}
+[25.258018] (-) TimerEvent: {}
+[25.358990] (-) TimerEvent: {}
+[25.460762] (-) TimerEvent: {}
+[25.561698] (-) TimerEvent: {}
+[25.662599] (-) TimerEvent: {}
+[25.763724] (-) TimerEvent: {}
+[25.864698] (-) TimerEvent: {}
+[25.965530] (-) TimerEvent: {}
+[26.066526] (-) TimerEvent: {}
+[26.167460] (-) TimerEvent: {}
+[26.268390] (-) TimerEvent: {}
+[26.369358] (-) TimerEvent: {}
+[26.470330] (-) TimerEvent: {}
+[26.571311] (-) TimerEvent: {}
+[26.672355] (-) TimerEvent: {}
+[26.775848] (-) TimerEvent: {}
+[26.818356] (xaims_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_odom_pub\x1b[0m\n'}
+[26.876095] (-) TimerEvent: {}
+[26.977125] (-) TimerEvent: {}
+[27.078079] (-) TimerEvent: {}
+[27.179316] (-) TimerEvent: {}
+[27.280262] (-) TimerEvent: {}
+[27.381336] (-) TimerEvent: {}
+[27.482298] (-) TimerEvent: {}
+[27.583286] (-) TimerEvent: {}
+[27.684884] (-) TimerEvent: {}
+[27.785846] (-) TimerEvent: {}
+[27.887100] (-) TimerEvent: {}
+[27.988485] (-) TimerEvent: {}
+[28.090275] (-) TimerEvent: {}
+[28.191382] (-) TimerEvent: {}
+[28.292475] (-) TimerEvent: {}
+[28.435131] (-) TimerEvent: {}
+[28.467661] (xaims_localization) StdoutLine: {'line': b'[100%] Built target ekf_odom_pub\n'}
+[28.535398] (-) TimerEvent: {}
+[28.623937] (xaims_localization) CommandEnded: {'returncode': 0}
+[28.636184] (-) TimerEvent: {}
+[28.738049] (-) TimerEvent: {}
+[28.839861] (xaims_localization) JobProgress: {'identifier': 'xaims_localization', 'progress': 'install'}
+[28.840161] (-) TimerEvent: {}
+[28.907947] (xaims_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization'], 'cwd': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aims_xavier'), ('SSH_AGENT_PID', '4039'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:/home/aims_xavier/microros_ws/install/micro_ros_agent/lib:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/aims_xavier'), ('OLDPWD', '/home/aims_xavier/XAiMs'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '3932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4690'), ('_colcon_cd_root', '/home/aims_xavier/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install:/home/aims_xavier/microros_ws/install:/home/aims_xavier/XAiMs/XAiMS_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aims_xavier'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421520055746'), ('JOURNAL_STREAM', '8:63975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aims_xavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4074,unix/ubuntu:/tmp/.ICE-unix/4074'), ('INVOCATION_ID', '64ae0d6e5e1a4624bf51b453fdf14b51'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d24bd5a2-354d-43db-91e3-929850bdfcea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[28.941067] (-) TimerEvent: {}
+[28.968647] (xaims_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.971176] (xaims_localization) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.974086] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/rviz_click_to_2d\n'}
+[28.977452] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/lib/xaims_localization/ekf_odom_pub\n'}
+[28.980665] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/launch/launch1.py\n'}
+[28.983208] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/package_run_dependencies/xaims_localization\n'}
+[28.984842] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/parent_prefix_path/xaims_localization\n'}
+[28.986504] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.sh\n'}
+[28.988998] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/ament_prefix_path.dsv\n'}
+[28.990565] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.sh\n'}
+[28.994932] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/environment/path.dsv\n'}
+[28.996685] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.bash\n'}
+[28.998130] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.sh\n'}
+[29.000395] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.zsh\n'}
+[29.001760] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/local_setup.dsv\n'}
+[29.003355] (xaims_localization) StdoutLine: {'line': b'-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.dsv\n'}
+[29.041092] (-) TimerEvent: {}
+[29.061462] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/ament_index/resource_index/packages/xaims_localization\n'}
+[29.063001] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig.cmake\n'}
+[29.064055] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/cmake/xaims_localizationConfig-version.cmake\n'}
+[29.065863] (xaims_localization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/share/xaims_localization/package.xml\n'}
+[29.079689] (xaims_localization) CommandEnded: {'returncode': 0}
+[29.144911] (-) TimerEvent: {}
+[29.246640] (-) TimerEvent: {}
+[29.348931] (-) TimerEvent: {}
+[29.452425] (-) TimerEvent: {}
+[29.533280] (xaims_localization) JobEnded: {'identifier': 'xaims_localization', 'rc': 0}
+[29.537885] (-) EventReactorShutdown: {}

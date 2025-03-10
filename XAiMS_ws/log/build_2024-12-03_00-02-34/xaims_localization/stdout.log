@@ -1,0 +1,4 @@
+[ 33%] Built target pose_estimate_publisher
+[ 66%] Built target rviz_click_to_2d
+[35m[1mScanning dependencies of target ekf_odom_pub[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m

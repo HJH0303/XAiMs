@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/config/lidar.lua
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/cartographer.launch.py
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/cartographer_rviz.launch.py
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/occupancy_grid.launch.py
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/rviz/cartographer.rviz
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/package_run_dependencies/monicar2_cartographer
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/parent_prefix_path/monicar2_cartographer
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/ament_prefix_path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/ament_prefix_path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/path.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/path.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.bash
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.sh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.zsh
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/package.dsv
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/packages/monicar2_cartographer
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/cmake/monicar2_cartographerConfig.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/cmake/monicar2_cartographerConfig-version.cmake
+-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/package.xml

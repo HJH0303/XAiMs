@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "xaims_localization",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ekf_odom_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ekf_odom_pub-e2fee3c9415d69612d72.json",
+					"name" : "ekf_odom_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom_data_saver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom_data_saver-e4f8219aabd0f4741fc2.json",
+					"name" : "odom_data_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimate_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimate_publisher-cc635969b121616728ac.json",
+					"name" : "pose_estimate_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rviz_click_to_2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rviz_click_to_2d-b33f1317657858694569.json",
+					"name" : "rviz_click_to_2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-48884617981e364139be.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xaims_localization_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xaims_localization_uninstall-bff48feba3960bd86a4a.json",
+					"name" : "xaims_localization_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization",
+		"source" : "/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

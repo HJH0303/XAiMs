@@ -1,0 +1,27 @@
+[1.740s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4
+[2.390s] [ 33%] Built target pose_estimate_publisher
+[2.636s] [ 66%] Built target rviz_click_to_2d
+[2.934s] [35m[1mScanning dependencies of target ekf_odom_pub[0m
+[3.498s] [ 83%] [32mBuilding CXX object CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o[0m
+[11.749s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:26:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[11.750s]    26 | double TICKS_PER_METER = [01;31m[K;[m[K 514// Original was 2800 /3100 486~496  514
+[11.751s]       |                          [01;31m[K^[m[K
+[11.751s] 
+[11.751s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:26:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[11.752s]    26 | uble TICKS_PER_METER = ; [01;31m[K514[m[K// Original was 2800 /3100 486~496  514
+[11.754s]       |                          [01;31m[K^~~[m[K
+[11.754s] 
+[11.787s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:[m[K In function ‘[01m[Kvoid Calc_Left(std_msgs::msg::Int16_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.788s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceLeft[m[K’ was not declared in this scope; did you mean ‘[01m[KdistanceRight[m[K’?
+[11.789s]    57 |     [01;31m[KdistanceLeft[m[K = leftTicks / TICKS_PER_METER;
+[11.789s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[11.790s]       |     [32m[KdistanceRight[m[K
+[11.831s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:[m[K In function ‘[01m[Kvoid update_odom()[m[K’:
+[11.834s] [01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:117:43:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceLeft[m[K’ was not declared in this scope; did you mean ‘[01m[KdistanceRight[m[K’?
+[11.835s]   117 | tance = (distanceRight + [01;31m[KdistanceLeft[m[K) / 2;
+[11.836s]       |                          [01;31m[K^~~~~~~~~~~~[m[K
+[11.845s]       |                          [32m[KdistanceRight[m[K
+[21.601s] make[2]: *** [CMakeFiles/ekf_odom_pub.dir/build.make:63: CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o] Error 1
+[21.605s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/ekf_odom_pub.dir/all] Error 2
+[21.606s] make: *** [Makefile:141: all] Error 2
+[21.623s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization -- -j4 -l4

@@ -1,0 +1,4 @@
+source;share/monicar2_navigation2/local_setup.bash
+source;share/monicar2_navigation2/local_setup.dsv
+source;share/monicar2_navigation2/local_setup.sh
+source;share/monicar2_navigation2/local_setup.zsh

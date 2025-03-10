@@ -1,0 +1,26 @@
+[4.373s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer -- -j4 -l4
+[5.941s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer -- -j4 -l4
+[5.969s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer
+[6.094s] -- Install configuration: ""
+[6.098s] -- Execute custom install script
+[6.099s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/config/lidar.lua
+[6.101s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/cartographer.launch.py
+[6.115s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/cartographer_rviz.launch.py
+[6.116s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/launch/occupancy_grid.launch.py
+[6.117s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/rviz/cartographer.rviz
+[6.118s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/package_run_dependencies/monicar2_cartographer
+[6.120s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/parent_prefix_path/monicar2_cartographer
+[6.122s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/ament_prefix_path.sh
+[6.134s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/ament_prefix_path.dsv
+[6.190s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/path.sh
+[6.257s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/environment/path.dsv
+[6.258s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.bash
+[6.259s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.sh
+[6.259s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.zsh
+[6.259s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/local_setup.dsv
+[6.260s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/package.dsv
+[6.286s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/ament_index/resource_index/packages/monicar2_cartographer
+[6.289s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/cmake/monicar2_cartographerConfig.cmake
+[6.292s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/cmake/monicar2_cartographerConfig-version.cmake
+[6.293s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_cartographer/share/monicar2_cartographer/package.xml
+[6.344s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_cartographer

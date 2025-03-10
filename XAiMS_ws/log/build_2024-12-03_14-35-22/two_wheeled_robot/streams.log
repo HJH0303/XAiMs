@@ -1,0 +1,77 @@
+[0.066s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot
+[0.522s] -- The C compiler identification is GNU 9.4.0
+[0.881s] -- The CXX compiler identification is GNU 9.4.0
+[0.911s] -- Check for working C compiler: /usr/bin/cc
+[1.431s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.435s] -- Detecting C compiler ABI info
+[2.042s] -- Detecting C compiler ABI info - done
+[2.100s] -- Detecting C compile features
+[2.102s] -- Detecting C compile features - done
+[2.119s] -- Check for working CXX compiler: /usr/bin/c++
+[2.701s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.707s] -- Detecting CXX compiler ABI info
+[3.350s] -- Detecting CXX compiler ABI info - done
+[3.429s] -- Detecting CXX compile features
+[3.439s] -- Detecting CXX compile features - done
+[3.456s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.688s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.689s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.598s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.922s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.924s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.235s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.242s] -- Added test 'lint_cmake' to check CMake code style
+[6.247s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.406s] -- Added test 'xmllint' to check XML markup files
+[6.424s] -- Configuring done
+[6.436s] -- Generating done
+[6.459s] -- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot
+[6.480s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot
+[6.492s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot -- -j4 -l4
+[6.781s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot -- -j4 -l4
+[6.870s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot
+[6.928s] -- Install configuration: ""
+[6.936s] -- Execute custom install script
+[6.944s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/launch/xaims_rviz.launch.py
+[7.013s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link.stl
+[7.073s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link2_1.stl
+[7.143s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/base_link3_1.stl
+[7.207s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_1_1.stl
+[7.263s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_2_1.stl
+[7.323s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_3_1.stl
+[7.375s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_4_1.stl
+[7.441s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_5_1.stl
+[7.526s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_6_1.stl
+[7.603s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_7_1.stl
+[7.662s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/column_8_1.stl
+[7.722s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/left_motor_1.stl
+[7.794s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/left_wheel_1.stl
+[7.843s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/lidar_link_1.stl
+[7.893s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/right_motor_1.stl
+[7.942s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/right_wheel_1.stl
+[7.996s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_1_1.stl
+[8.050s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_2_1.stl
+[8.108s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_3_1.stl
+[8.160s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/meshes/sup_wheel_4_1.stl
+[8.215s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/rviz/rviz_basic_settings.rviz
+[8.273s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.gazebo
+[8.320s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.trans
+[8.385s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.urdf
+[8.437s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/XiAMS_V1.xacro
+[8.490s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/urdf/materials.xacro
+[8.542s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/package_run_dependencies/two_wheeled_robot
+[8.745s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/parent_prefix_path/two_wheeled_robot
+[8.800s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.sh
+[8.865s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/ament_prefix_path.dsv
+[8.916s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.sh
+[8.970s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/environment/path.dsv
+[9.024s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.bash
+[9.074s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.sh
+[9.127s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.zsh
+[9.177s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/local_setup.dsv
+[9.248s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv
+[9.306s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/ament_index/resource_index/packages/two_wheeled_robot
+[9.370s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig.cmake
+[9.434s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/cmake/two_wheeled_robotConfig-version.cmake
+[9.502s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.xml
+[9.565s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/two_wheeled_robot

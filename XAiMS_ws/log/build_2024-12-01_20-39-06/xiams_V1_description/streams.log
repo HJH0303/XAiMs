@@ -1,0 +1,21 @@
+[1.208s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description': /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xiams_V1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xiams_V1_description
+[1.372s] CMake Error at CMakeLists.txt:10 (find_package):
+[1.372s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.373s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.373s]   CMake did not find one.
+[1.373s] 
+[1.374s]   Could not find a package configuration file provided by "catkin" with any
+[1.374s]   of the following names:
+[1.375s] 
+[1.375s]     catkinConfig.cmake
+[1.375s]     catkin-config.cmake
+[1.375s] 
+[1.376s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.376s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.376s]   provides a separate development package or SDK, be sure it has been
+[1.376s]   installed.
+[1.377s] 
+[1.378s] 
+[1.379s] -- Configuring incomplete, errors occurred!
+[1.379s] See also "/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description/CMakeFiles/CMakeOutput.log".
+[1.446s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xiams_V1_description' returned '1': /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xiams_V1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xiams_V1_description

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o"
-  "CMakeFiles/rviz_click_to_2d.dir/src/rviz_click_to_2d.cpp.o.d"
   "rviz_click_to_2d"
   "rviz_click_to_2d.pdb"
 )

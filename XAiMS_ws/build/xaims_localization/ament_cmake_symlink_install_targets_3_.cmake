@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/pose_estimate_publisher" "TARGETS" "pose_estimate_publisher" "DESTINATION" "lib/xaims_localization")

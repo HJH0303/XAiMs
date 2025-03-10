@@ -1,0 +1,19 @@
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:26:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   26 | const double TICKS_PER_METER = [01;31m[K;[m[K 3000// Original was 2800 /3100 486~496  514
+      |                                [01;31m[K^[m[K
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:26:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   26 | const double TICKS_PER_METER = ; [01;31m[K3000[m[K// Original was 2800 /3100 486~496  514
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:[m[K In function ‘[01m[Kvoid Calc_Left(std_msgs::msg::Int16_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceLeft[m[K’ was not declared in this scope; did you mean ‘[01m[KdistanceRight[m[K’?
+   57 |     [01;31m[KdistanceLeft[m[K = leftTicks / TICKS_PER_METER;
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+      |     [32m[KdistanceRight[m[K
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:[m[K In function ‘[01m[Kvoid update_odom()[m[K’:
+[01m[K/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/src/ekf_odom_pub.cpp:117:43:[m[K [01;31m[Kerror: [m[K‘[01m[KdistanceLeft[m[K’ was not declared in this scope; did you mean ‘[01m[KdistanceRight[m[K’?
+  117 |   double cycleDistance = (distanceRight + [01;31m[KdistanceLeft[m[K) / 2;
+      |                                           [01;31m[K^~~~~~~~~~~~[m[K
+      |                                           [32m[KdistanceRight[m[K
+make[2]: *** [CMakeFiles/ekf_odom_pub.dir/build.make:63: CMakeFiles/ekf_odom_pub.dir/src/ekf_odom_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/ekf_odom_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

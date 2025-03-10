@@ -8,6 +8,9 @@ if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -23,6 +26,7 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
+
 
 add_executable(rviz_click_to_2d src/rviz_click_to_2d.cpp)
 ament_target_dependencies(rviz_click_to_2d rclcpp geometry_msgs tf2 tf2_geometry_msgs)
@@ -42,11 +46,20 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+add_executable(odom_data_saver src/odom_data_saver.cpp)
+ament_target_dependencies(odom_data_saver rclcpp nav_msgs)
+install(TARGETS odom_data_saver DESTINATION lib/${PROJECT_NAME})
+
+add_executable(pose_estimate_publisher src/pose_estimate_publisher.cpp)
+ament_target_dependencies(pose_estimate_publisher rclcpp geometry_msgs tf2 tf2_geometry_msgs)
+install(TARGETS pose_estimate_publisher DESTINATION lib/${PROJECT_NAME})
+
+
 ################################################################################
 # Install
 ################################################################################
 install(
-  DIRECTORY launch rviz
+  DIRECTORY launch rviz params
   DESTINATION share/${PROJECT_NAME}
 )
 

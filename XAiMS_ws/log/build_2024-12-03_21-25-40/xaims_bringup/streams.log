@@ -1,0 +1,65 @@
+[0.214s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup
+[0.313s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.417s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.529s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.574s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.801s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.752s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.830s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.043s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[5.222s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[9.112s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[9.761s] -- Configuring done
+[9.926s] -- Generating done
+[9.946s] -- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup
+[9.991s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup -DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup
+[9.994s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup -- -j4 -l4
+[10.193s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup -- -j4 -l4
+[10.287s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup
+[10.331s] -- Install configuration: ""
+[10.333s] -- Execute custom install script
+[10.456s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/launch/xaims_bringup.launch.py
+[10.465s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/urdf/XiAMS_V1.gazebo
+[10.466s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/urdf/XiAMS_V1.trans
+[10.469s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/urdf/XiAMS_V1.urdf
+[10.471s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/urdf/XiAMS_V1.xacro
+[10.475s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/urdf/materials.xacro
+[10.490s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/base_link.stl
+[10.495s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/base_link2_1.stl
+[10.498s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/base_link3_1.stl
+[10.499s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_1_1.stl
+[10.501s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_2_1.stl
+[10.503s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_3_1.stl
+[10.504s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_4_1.stl
+[10.507s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_5_1.stl
+[10.508s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_6_1.stl
+[10.510s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_7_1.stl
+[10.511s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/column_8_1.stl
+[10.513s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/left_motor_1.stl
+[10.514s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/left_wheel_1.stl
+[10.516s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/lidar_link_1.stl
+[10.518s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/right_motor_1.stl
+[10.521s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/right_wheel_1.stl
+[10.524s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/sup_wheel_1_1.stl
+[10.527s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/sup_wheel_2_1.stl
+[10.530s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/sup_wheel_3_1.stl
+[10.532s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/meshes/sup_wheel_4_1.stl
+[10.536s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/package_run_dependencies/xaims_bringup
+[10.540s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/parent_prefix_path/xaims_bringup
+[10.543s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/ament_prefix_path.sh
+[10.546s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/ament_prefix_path.dsv
+[10.549s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/path.sh
+[10.552s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/environment/path.dsv
+[10.554s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.bash
+[10.558s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.sh
+[10.560s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.zsh
+[10.563s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/local_setup.dsv
+[10.565s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/package.dsv
+[10.752s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/ament_index/resource_index/packages/xaims_bringup
+[10.755s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/cmake/xaims_bringupConfig.cmake
+[10.758s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/cmake/xaims_bringupConfig-version.cmake
+[10.765s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/package.xml
+[10.777s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup

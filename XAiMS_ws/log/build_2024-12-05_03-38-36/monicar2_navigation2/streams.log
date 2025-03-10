@@ -1,0 +1,37 @@
+[0.570s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2 -- -j4 -l4
+[1.321s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2 -- -j4 -l4
+[1.326s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2
+[1.540s] -- Install configuration: ""
+[1.566s] -- Execute custom install script
+[1.630s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/launch/navigation2.launch.py
+[1.633s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/launch/navigation2_rviz.launch.py
+[1.634s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/launch/slamtoolbox_rviz.launch.py
+[1.636s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/maker1.pgm
+[1.637s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/maker1.yaml
+[1.638s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymap.pgm
+[1.640s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymap.yaml
+[1.643s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymap_backkup.pgm
+[1.667s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymap_backkup.yaml
+[1.667s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymapbackup2.pgm
+[1.669s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymapbackup2.yaml
+[1.671s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymapbackup3.pgm
+[1.678s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/map/mymapbackup3.yaml
+[1.696s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/param/monicar2.yaml
+[1.704s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/rviz/navigation2.rviz
+[1.705s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/rviz/slamtoolbox.rviz
+[1.706s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/ament_index/resource_index/package_run_dependencies/monicar2_navigation2
+[1.714s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/ament_index/resource_index/parent_prefix_path/monicar2_navigation2
+[1.715s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/environment/ament_prefix_path.sh
+[1.721s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/environment/ament_prefix_path.dsv
+[1.739s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/environment/path.sh
+[1.747s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/environment/path.dsv
+[1.790s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/local_setup.bash
+[1.793s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/local_setup.sh
+[1.797s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/local_setup.zsh
+[1.802s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/local_setup.dsv
+[1.803s] -- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/package.dsv
+[1.888s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/ament_index/resource_index/packages/monicar2_navigation2
+[1.889s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/cmake/monicar2_navigation2Config.cmake
+[1.890s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/cmake/monicar2_navigation2Config-version.cmake
+[1.891s] -- Up-to-date symlink: /home/aims_xavier/XAiMs/XAiMS_ws/install/monicar2_navigation2/share/monicar2_navigation2/package.xml
+[1.892s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/aims_xavier/XAiMs/XAiMS_ws/build/monicar2_navigation2

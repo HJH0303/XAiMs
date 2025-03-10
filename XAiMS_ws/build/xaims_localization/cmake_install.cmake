@@ -1,8 +1,8 @@
-# Install script for directory: /home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization
+# Install script for directory: /home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization")
+  set(CMAKE_INSTALL_PREFIX "/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,13 +37,8 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,17 @@
+[3.024s] Invoking command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055': PYTHONPATH=/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/build --no-deps symlink_data
+[3.981s] running develop
+[4.547s] running egg_info
+[4.548s] writing bno055.egg-info/PKG-INFO
+[4.549s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[4.550s] writing entry points to bno055.egg-info/entry_points.txt
+[4.551s] writing requirements to bno055.egg-info/requires.txt
+[4.553s] writing top-level names to bno055.egg-info/top_level.txt
+[4.682s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[4.687s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[4.871s] running build_ext
+[4.873s] Creating /home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages/bno055.egg-link (link to .)
+[4.889s] Installing bno055 script to /home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/bno055
+[4.890s] 
+[4.891s] Installed /home/aims_xavier/XAiMs/XAiMS_ws/build/bno055
+[4.891s] running symlink_data
+[5.036s] Invoked command in '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055' returned '0': PYTHONPATH=/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/aims_xavier/XAiMs/XAiMS_ws/build/bno055/build --no-deps symlink_data

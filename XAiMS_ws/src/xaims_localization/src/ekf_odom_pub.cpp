@@ -20,10 +20,10 @@ const double initialTheta = 0.00000000001;
 const double PI = 3.141592;
 
 // Robot physical constants
-const double TICKS_PER_REVOLUTION = 620; // For reference purposes.
-const double WHEEL_RADIUS = 0.033; // Wheel radius in meters
-const double WHEEL_BASE = 0.17; // Center of left tire to center of right tire
-const double TICKS_PER_METER = 3100; // Original was 2800
+const double TICKS_PER_REVOLUTION = 180; // For reference purposes. 620
+const double WHEEL_RADIUS = 0.115/2; // Wheel radius in meters 0.033
+const double WHEEL_BASE = 0.325; // Center of left tire to center of right tire 0.17
+const double TICKS_PER_METER = 2350; // Original was 2800 /3100 486~496  514
 
 // Distance both wheels have traveled
 double distanceLeft = 0;
@@ -83,7 +83,7 @@ void publish_quat() {
   nav_msgs::msg::Odometry quatOdom;
   quatOdom.header.stamp = odomNew.header.stamp;
   quatOdom.header.frame_id = "odom";
-  quatOdom.child_frame_id = "base_link";
+  quatOdom.child_frame_id = "base_footprint";
   quatOdom.pose.pose.position.x = odomNew.pose.pose.position.x;
   quatOdom.pose.pose.position.y = odomNew.pose.pose.position.y;
   quatOdom.pose.pose.position.z = odomNew.pose.pose.position.z;
@@ -121,17 +121,24 @@ void update_odom() {
 
   // Average angle during the last cycle
   double avgAngle = cycleAngle / 2 + odomOld.pose.pose.orientation.z;
+  
 
   if (avgAngle > PI) {
     avgAngle -= 2 * PI;
   } else if (avgAngle < -PI) {
     avgAngle += 2 * PI;
   }
+  // std::cout <<"avgAngle :" << (avgAngle*180/PI) << std::endl;
+  // std::cout <<"cycleDistance :" << cycleDistance << std::endl;
 
   // Calculate the new pose (x, y, and theta)
   odomNew.pose.pose.position.x = odomOld.pose.pose.position.x + cos(avgAngle) * cycleDistance;
   odomNew.pose.pose.position.y = odomOld.pose.pose.position.y + sin(avgAngle) * cycleDistance;
   odomNew.pose.pose.orientation.z = cycleAngle + odomOld.pose.pose.orientation.z;
+
+  std::cout <<"X :" << odomNew.pose.pose.position.x  << std::endl;
+  std::cout <<"Y :" << odomNew.pose.pose.position.y << std::endl;
+  std::cout <<"Z :" << odomNew.pose.pose.orientation.z << std::endl;
 
   // Prevent lockup from a single bad cycle
   if (isnan(odomNew.pose.pose.position.x) || isnan(odomNew.pose.pose.position.y) || isnan(odomNew.pose.pose.position.z)) {
@@ -193,7 +200,7 @@ int main(int argc, char **argv) {
 
   // Initialize the publishers
   odom_data_pub = node->create_publisher<nav_msgs::msg::Odometry>("odom", 100);
-  odom_data_pub_quat = node->create_publisher<nav_msgs::msg::Odometry>("odom_quat", 100);
+  odom_data_pub_quat = node->create_publisher<nav_msgs::msg::Odometry>("/odom_quat", 100);
 
   rclcpp::Rate loop_rate(50);
 

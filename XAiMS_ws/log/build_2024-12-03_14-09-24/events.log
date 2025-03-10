@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.001192] (-) JobUnselected: {'identifier': 'basic_mobile_robot'}
+[0.002426] (-) JobUnselected: {'identifier': 'bno055'}
+[0.002601] (-) JobUnselected: {'identifier': 'imu_bno055'}
+[0.002704] (-) JobUnselected: {'identifier': 'xaims_localization'}
+[0.003510] (xaims_bringup) JobQueued: {'identifier': 'xaims_bringup', 'dependencies': OrderedDict()}
+[0.004226] (xaims_bringup) JobStarted: {'identifier': 'xaims_bringup'}
+[0.098640] (-) TimerEvent: {}
+[0.199521] (-) TimerEvent: {}
+[0.300542] (-) TimerEvent: {}
+[0.384266] (xaims_bringup) JobProgress: {'identifier': 'xaims_bringup', 'progress': 'cmake'}
+[0.387760] (xaims_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup'], 'cwd': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aims_xavier'), ('SSH_AGENT_PID', '4082'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aims_xavier/microros_ws/install/micro_ros_agent/lib:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/aims_xavier'), ('OLDPWD', '/home/aims_xavier/XAiMs'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '3947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5024'), ('_colcon_cd_root', '/home/aims_xavier/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install:/home/aims_xavier/microros_ws/install:/home/aims_xavier/XAiMs/XAiMS_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aims_xavier'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421520055746'), ('JOURNAL_STREAM', '8:60336'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aims_xavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4153,unix/ubuntu:/tmp/.ICE-unix/4153'), ('INVOCATION_ID', 'e3b545261dc3498ca169ac94f70c7536'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96e19c78-58d0-4348-904d-9a0bf401a66d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[0.414661] (-) TimerEvent: {}
+[0.522844] (-) TimerEvent: {}
+[0.625346] (-) TimerEvent: {}
+[0.726748] (-) TimerEvent: {}
+[0.827764] (-) TimerEvent: {}
+[0.928886] (-) TimerEvent: {}
+[1.032005] (-) TimerEvent: {}
+[1.132898] (-) TimerEvent: {}
+[1.235567] (-) TimerEvent: {}
+[1.338516] (-) TimerEvent: {}
+[1.443925] (-) TimerEvent: {}
+[1.544955] (-) TimerEvent: {}
+[1.648096] (-) TimerEvent: {}
+[1.750037] (-) TimerEvent: {}
+[1.852480] (-) TimerEvent: {}
+[1.953598] (-) TimerEvent: {}
+[2.055865] (-) TimerEvent: {}
+[2.156825] (-) TimerEvent: {}
+[2.257687] (-) TimerEvent: {}
+[2.358732] (-) TimerEvent: {}
+[2.459735] (-) TimerEvent: {}
+[2.560938] (-) TimerEvent: {}
+[2.662144] (-) TimerEvent: {}
+[2.819437] (xaims_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.821091] (-) TimerEvent: {}
+[2.922026] (-) TimerEvent: {}
+[3.023493] (-) TimerEvent: {}
+[3.124593] (-) TimerEvent: {}
+[3.226904] (-) TimerEvent: {}
+[3.329493] (-) TimerEvent: {}
+[3.432023] (-) TimerEvent: {}
+[3.533377] (-) TimerEvent: {}
+[3.634623] (-) TimerEvent: {}
+[3.736086] (-) TimerEvent: {}
+[3.837026] (-) TimerEvent: {}
+[3.938418] (-) TimerEvent: {}
+[4.039327] (-) TimerEvent: {}
+[4.140227] (-) TimerEvent: {}
+[4.242019] (-) TimerEvent: {}
+[4.344534] (-) TimerEvent: {}
+[4.395765] (xaims_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.444695] (-) TimerEvent: {}
+[4.545623] (-) TimerEvent: {}
+[4.648297] (-) TimerEvent: {}
+[4.731319] (xaims_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.748665] (-) TimerEvent: {}
+[4.849762] (-) TimerEvent: {}
+[4.950751] (-) TimerEvent: {}
+[5.051834] (-) TimerEvent: {}
+[5.155691] (-) TimerEvent: {}
+[5.256558] (-) TimerEvent: {}
+[5.357507] (-) TimerEvent: {}
+[5.458650] (-) TimerEvent: {}
+[5.559594] (-) TimerEvent: {}
+[5.603633] (xaims_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.659920] (-) TimerEvent: {}
+[5.753892] (xaims_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.760087] (-) TimerEvent: {}
+[5.861031] (-) TimerEvent: {}
+[5.962042] (-) TimerEvent: {}
+[6.062980] (-) TimerEvent: {}
+[6.163933] (-) TimerEvent: {}
+[6.264896] (-) TimerEvent: {}
+[6.366109] (-) TimerEvent: {}
+[6.470199] (-) TimerEvent: {}
+[6.572865] (-) TimerEvent: {}
+[6.630069] (xaims_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.675337] (-) TimerEvent: {}
+[6.776190] (-) TimerEvent: {}
+[6.856867] (xaims_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.858173] (xaims_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.873348] (xaims_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.876408] (-) TimerEvent: {}
+[6.977260] (-) TimerEvent: {}
+[7.078804] (-) TimerEvent: {}
+[7.180576] (-) TimerEvent: {}
+[7.281417] (-) TimerEvent: {}
+[7.384977] (-) TimerEvent: {}
+[7.486370] (-) TimerEvent: {}
+[7.589208] (-) TimerEvent: {}
+[7.692839] (-) TimerEvent: {}
+[7.832786] (xaims_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.833568] (-) TimerEvent: {}
+[7.837544] (xaims_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.933878] (-) TimerEvent: {}
+[8.034746] (-) TimerEvent: {}
+[8.135720] (-) TimerEvent: {}
+[8.236710] (-) TimerEvent: {}
+[8.337657] (-) TimerEvent: {}
+[8.439745] (-) TimerEvent: {}
+[8.517248] (xaims_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.539975] (-) TimerEvent: {}
+[8.582476] (xaims_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.585659] (xaims_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.640188] (-) TimerEvent: {}
+[8.742097] (-) TimerEvent: {}
+[8.757314] (xaims_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.841999] (-) TimerEvent: {}
+[8.944739] (-) TimerEvent: {}
+[9.048005] (-) TimerEvent: {}
+[9.150155] (-) TimerEvent: {}
+[9.209920] (xaims_bringup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.210794] (xaims_bringup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.250319] (-) TimerEvent: {}
+[9.351252] (-) TimerEvent: {}
+[9.452626] (-) TimerEvent: {}
+[9.554047] (-) TimerEvent: {}
+[9.655209] (-) TimerEvent: {}
+[9.756115] (-) TimerEvent: {}
+[9.857345] (-) TimerEvent: {}
+[9.959385] (-) TimerEvent: {}
+[10.060649] (-) TimerEvent: {}
+[10.161631] (-) TimerEvent: {}
+[10.262772] (-) TimerEvent: {}
+[10.363748] (-) TimerEvent: {}
+[10.464933] (-) TimerEvent: {}
+[10.566639] (-) TimerEvent: {}
+[10.567729] (xaims_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.666896] (-) TimerEvent: {}
+[10.768267] (-) TimerEvent: {}
+[10.870003] (-) TimerEvent: {}
+[10.972605] (-) TimerEvent: {}
+[11.073621] (-) TimerEvent: {}
+[11.174697] (-) TimerEvent: {}
+[11.275759] (-) TimerEvent: {}
+[11.378346] (-) TimerEvent: {}
+[11.480992] (-) TimerEvent: {}
+[11.581933] (-) TimerEvent: {}
+[11.682874] (-) TimerEvent: {}
+[11.785658] (-) TimerEvent: {}
+[11.793928] (xaims_bringup) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[11.885989] (-) TimerEvent: {}
+[11.989627] (-) TimerEvent: {}
+[12.091941] (-) TimerEvent: {}
+[12.192786] (-) TimerEvent: {}
+[12.293753] (-) TimerEvent: {}
+[12.394953] (-) TimerEvent: {}
+[12.496988] (-) TimerEvent: {}
+[12.598137] (-) TimerEvent: {}
+[12.699109] (-) TimerEvent: {}
+[12.800347] (-) TimerEvent: {}
+[12.924109] (-) TimerEvent: {}
+[13.025720] (-) TimerEvent: {}
+[13.126717] (-) TimerEvent: {}
+[13.227764] (-) TimerEvent: {}
+[13.330078] (-) TimerEvent: {}
+[13.430988] (-) TimerEvent: {}
+[13.532031] (-) TimerEvent: {}
+[13.636318] (-) TimerEvent: {}
+[13.687958] (xaims_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.736536] (-) TimerEvent: {}
+[13.837472] (-) TimerEvent: {}
+[13.939105] (-) TimerEvent: {}
+[14.031732] (xaims_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[14.040050] (-) TimerEvent: {}
+[14.141217] (-) TimerEvent: {}
+[14.242702] (-) TimerEvent: {}
+[14.346041] (-) TimerEvent: {}
+[14.452975] (-) TimerEvent: {}
+[14.559676] (-) TimerEvent: {}
+[14.662078] (-) TimerEvent: {}
+[14.767002] (-) TimerEvent: {}
+[14.871277] (-) TimerEvent: {}
+[14.973744] (-) TimerEvent: {}
+[15.075165] (-) TimerEvent: {}
+[15.180774] (-) TimerEvent: {}
+[15.282918] (-) TimerEvent: {}
+[15.384851] (-) TimerEvent: {}
+[15.485955] (-) TimerEvent: {}
+[15.558541] (xaims_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[15.586169] (-) TimerEvent: {}
+[15.688346] (-) TimerEvent: {}
+[15.790852] (-) TimerEvent: {}
+[15.877156] (xaims_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[15.891081] (-) TimerEvent: {}
+[15.992340] (-) TimerEvent: {}
+[16.093366] (-) TimerEvent: {}
+[16.194489] (-) TimerEvent: {}
+[16.296152] (-) TimerEvent: {}
+[16.397111] (-) TimerEvent: {}
+[16.498913] (-) TimerEvent: {}
+[16.600489] (-) TimerEvent: {}
+[16.702499] (-) TimerEvent: {}
+[16.804184] (-) TimerEvent: {}
+[16.907432] (-) TimerEvent: {}
+[17.009589] (-) TimerEvent: {}
+[17.111746] (-) TimerEvent: {}
+[17.213286] (-) TimerEvent: {}
+[17.314828] (-) TimerEvent: {}
+[17.417277] (-) TimerEvent: {}
+[17.518437] (-) TimerEvent: {}
+[17.619762] (-) TimerEvent: {}
+[17.722798] (-) TimerEvent: {}
+[17.823822] (-) TimerEvent: {}
+[17.924880] (-) TimerEvent: {}
+[17.998718] (xaims_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.025097] (-) TimerEvent: {}
+[18.126103] (-) TimerEvent: {}
+[18.227583] (-) TimerEvent: {}
+[18.328577] (-) TimerEvent: {}
+[18.429498] (-) TimerEvent: {}
+[18.533214] (-) TimerEvent: {}
+[18.635227] (-) TimerEvent: {}
+[18.736629] (-) TimerEvent: {}
+[18.837647] (-) TimerEvent: {}
+[18.939376] (-) TimerEvent: {}
+[19.041920] (-) TimerEvent: {}
+[19.143152] (-) TimerEvent: {}
+[19.251284] (-) TimerEvent: {}
+[19.352275] (-) TimerEvent: {}
+[19.453534] (-) TimerEvent: {}
+[19.555453] (-) TimerEvent: {}
+[19.657319] (-) TimerEvent: {}
+[19.667097] (xaims_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[19.678135] (xaims_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.686073] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.759278] (-) TimerEvent: {}
+[19.860921] (-) TimerEvent: {}
+[19.962575] (-) TimerEvent: {}
+[20.063810] (-) TimerEvent: {}
+[20.173960] (-) TimerEvent: {}
+[20.274992] (-) TimerEvent: {}
+[20.376920] (-) TimerEvent: {}
+[20.468162] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.469508] (xaims_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.477114] (-) TimerEvent: {}
+[20.582272] (-) TimerEvent: {}
+[20.683180] (-) TimerEvent: {}
+[20.784084] (-) TimerEvent: {}
+[20.885094] (-) TimerEvent: {}
+[20.987020] (-) TimerEvent: {}
+[21.088223] (-) TimerEvent: {}
+[21.190121] (-) TimerEvent: {}
+[21.262339] (xaims_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[21.264530] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[21.291024] (-) TimerEvent: {}
+[21.392959] (-) TimerEvent: {}
+[21.494605] (-) TimerEvent: {}
+[21.595525] (-) TimerEvent: {}
+[21.696611] (-) TimerEvent: {}
+[21.797603] (-) TimerEvent: {}
+[21.898580] (-) TimerEvent: {}
+[21.999558] (-) TimerEvent: {}
+[22.100429] (-) TimerEvent: {}
+[22.112402] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[22.113381] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[22.200651] (-) TimerEvent: {}
+[22.301583] (-) TimerEvent: {}
+[22.402621] (-) TimerEvent: {}
+[22.503457] (-) TimerEvent: {}
+[22.605758] (-) TimerEvent: {}
+[22.683190] (xaims_bringup) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[22.691783] (xaims_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[22.706170] (-) TimerEvent: {}
+[22.807292] (-) TimerEvent: {}
+[22.909297] (-) TimerEvent: {}
+[23.010785] (-) TimerEvent: {}
+[23.111800] (-) TimerEvent: {}
+[23.212886] (-) TimerEvent: {}
+[23.314158] (-) TimerEvent: {}
+[23.415940] (-) TimerEvent: {}
+[23.517093] (-) TimerEvent: {}
+[23.619021] (-) TimerEvent: {}
+[23.722005] (-) TimerEvent: {}
+[23.830138] (-) TimerEvent: {}
+[23.931091] (-) TimerEvent: {}
+[24.033831] (-) TimerEvent: {}
+[24.134902] (-) TimerEvent: {}
+[24.235772] (-) TimerEvent: {}
+[24.336981] (-) TimerEvent: {}
+[24.437839] (-) TimerEvent: {}
+[24.538759] (-) TimerEvent: {}
+[24.640792] (-) TimerEvent: {}
+[24.742013] (-) TimerEvent: {}
+[24.843412] (-) TimerEvent: {}
+[24.944335] (-) TimerEvent: {}
+[25.045369] (-) TimerEvent: {}
+[25.146547] (-) TimerEvent: {}
+[25.197634] (xaims_bringup) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[25.246755] (-) TimerEvent: {}
+[25.347675] (-) TimerEvent: {}
+[25.448565] (-) TimerEvent: {}
+[25.505687] (xaims_bringup) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[25.549274] (-) TimerEvent: {}
+[25.650552] (-) TimerEvent: {}
+[25.696677] (xaims_bringup) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[25.750944] (-) TimerEvent: {}
+[25.853309] (-) TimerEvent: {}
+[25.863161] (xaims_bringup) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[25.952480] (-) TimerEvent: {}
+[26.053767] (-) TimerEvent: {}
+[26.155422] (-) TimerEvent: {}
+[26.257052] (-) TimerEvent: {}
+[26.361957] (-) TimerEvent: {}
+[26.462858] (-) TimerEvent: {}
+[26.563851] (-) TimerEvent: {}
+[26.665406] (-) TimerEvent: {}
+[26.767573] (-) TimerEvent: {}
+[26.869285] (-) TimerEvent: {}
+[26.970433] (-) TimerEvent: {}
+[27.072989] (-) TimerEvent: {}
+[27.176423] (-) TimerEvent: {}
+[27.280422] (-) TimerEvent: {}
+[27.382857] (-) TimerEvent: {}
+[27.483777] (-) TimerEvent: {}
+[27.585056] (-) TimerEvent: {}
+[27.685995] (-) TimerEvent: {}
+[27.787225] (-) TimerEvent: {}
+[27.888866] (-) TimerEvent: {}
+[27.989833] (-) TimerEvent: {}
+[28.090829] (-) TimerEvent: {}
+[28.191683] (-) TimerEvent: {}
+[28.292642] (-) TimerEvent: {}
+[28.395194] (-) TimerEvent: {}
+[28.497507] (-) TimerEvent: {}
+[28.599761] (-) TimerEvent: {}
+[28.700749] (-) TimerEvent: {}
+[28.806679] (-) TimerEvent: {}
+[28.908198] (-) TimerEvent: {}
+[29.011747] (-) TimerEvent: {}
+[29.116162] (-) TimerEvent: {}
+[29.219797] (-) TimerEvent: {}
+[29.327715] (-) TimerEvent: {}
+[29.431259] (-) TimerEvent: {}
+[29.533446] (-) TimerEvent: {}
+[29.635166] (-) TimerEvent: {}
+[29.736535] (-) TimerEvent: {}
+[29.838816] (-) TimerEvent: {}
+[29.939837] (-) TimerEvent: {}
+[30.042108] (-) TimerEvent: {}
+[30.145932] (-) TimerEvent: {}
+[30.248343] (-) TimerEvent: {}
+[30.349839] (-) TimerEvent: {}
+[30.453900] (-) TimerEvent: {}
+[30.556693] (-) TimerEvent: {}
+[30.582264] (xaims_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[30.660508] (-) TimerEvent: {}
+[30.762013] (-) TimerEvent: {}
+[30.864362] (-) TimerEvent: {}
+[30.965292] (-) TimerEvent: {}
+[31.067050] (-) TimerEvent: {}
+[31.172998] (-) TimerEvent: {}
+[31.274622] (-) TimerEvent: {}
+[31.375570] (-) TimerEvent: {}
+[31.476670] (-) TimerEvent: {}
+[31.579783] (-) TimerEvent: {}
+[31.683651] (-) TimerEvent: {}
+[31.784579] (-) TimerEvent: {}
+[31.883544] (xaims_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.884723] (-) TimerEvent: {}
+[31.914797] (xaims_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[31.941599] (xaims_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup\n'}
+[31.986018] (-) TimerEvent: {}
+[32.028586] (xaims_bringup) CommandEnded: {'returncode': 0}
+[32.053407] (xaims_bringup) JobProgress: {'identifier': 'xaims_bringup', 'progress': 'build'}
+[32.053938] (xaims_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup', '--', '-j4', '-l4'], 'cwd': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aims_xavier'), ('SSH_AGENT_PID', '4082'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aims_xavier/microros_ws/install/micro_ros_agent/lib:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/aims_xavier'), ('OLDPWD', '/home/aims_xavier/XAiMs'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '3947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5024'), ('_colcon_cd_root', '/home/aims_xavier/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install:/home/aims_xavier/microros_ws/install:/home/aims_xavier/XAiMs/XAiMS_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aims_xavier'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421520055746'), ('JOURNAL_STREAM', '8:60336'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aims_xavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4153,unix/ubuntu:/tmp/.ICE-unix/4153'), ('INVOCATION_ID', 'e3b545261dc3498ca169ac94f70c7536'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96e19c78-58d0-4348-904d-9a0bf401a66d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[32.086341] (-) TimerEvent: {}
+[32.187673] (-) TimerEvent: {}
+[32.290393] (-) TimerEvent: {}
+[32.392978] (-) TimerEvent: {}
+[32.430470] (xaims_bringup) CommandEnded: {'returncode': 0}
+[32.436160] (xaims_bringup) JobProgress: {'identifier': 'xaims_bringup', 'progress': 'install'}
+[32.493990] (-) TimerEvent: {}
+[32.504550] (xaims_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup'], 'cwd': '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aims_xavier'), ('SSH_AGENT_PID', '4082'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aims_xavier/microros_ws/install/micro_ros_agent/lib:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/aims_xavier'), ('OLDPWD', '/home/aims_xavier/XAiMs'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '3947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5024'), ('_colcon_cd_root', '/home/aims_xavier/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install:/home/aims_xavier/microros_ws/install:/home/aims_xavier/XAiMs/XAiMS_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aims_xavier'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421520055746'), ('JOURNAL_STREAM', '8:60336'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'aims_xavier'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/aims_xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/4153,unix/ubuntu:/tmp/.ICE-unix/4153'), ('INVOCATION_ID', 'e3b545261dc3498ca169ac94f70c7536'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:96e19c78-58d0-4348-904d-9a0bf401a66d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aims_xavier/XAiMs/XAiMS_ws/build/bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055/lib/python3.8/site-packages:/home/aims_xavier/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_sdk:/home/aims_xavier/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization:/home/aims_xavier/XAiMs/XAiMS_ws/install/imu_bno055:/home/aims_xavier/XAiMs/XAiMS_ws/install/basic_mobile_robot:/home/aims_xavier/microros_ws/install/micro_ros_setup:/home/aims_xavier/microros_ws/install/micro_ros_agent:/home/aims_xavier/microros_ws/install/micro_ros_msgs:/home/aims_xavier/XAiMs/XAiMS_ws/install/bno055:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[32.594564] (-) TimerEvent: {}
+[32.610304] (xaims_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.617460] (xaims_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[32.623363] (xaims_bringup) StdoutLine: {'line': b'-- Symlinking: /home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_bringup/share/xaims_bringup/launch/xaims_bringup.launch.py\n'}
+[32.695120] (-) TimerEvent: {}
+[32.850734] (xaims_bringup) StderrLine: {'line': b'CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):\n'}
+[32.852323] (-) TimerEvent: {}
+[32.853088] (xaims_bringup) StderrLine: {'line': b"  ament_cmake_symlink_install_directory() can't find\n"}
+[32.853620] (xaims_bringup) StderrLine: {'line': b"  '/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_bringup/rviz'\n"}
+[32.854194] (xaims_bringup) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[32.854639] (xaims_bringup) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[32.855034] (xaims_bringup) StderrLine: {'line': b'  cmake_install.cmake:41 (include)\n'}
+[32.855355] (xaims_bringup) StderrLine: {'line': b'\n'}
+[32.855688] (xaims_bringup) StderrLine: {'line': b'\n'}
+[32.862853] (xaims_bringup) CommandEnded: {'returncode': 1}
+[32.952701] (-) TimerEvent: {}
+[33.054132] (-) TimerEvent: {}
+[33.158717] (-) TimerEvent: {}
+[33.240193] (xaims_bringup) JobEnded: {'identifier': 'xaims_bringup', 'rc': 1}
+[33.251683] (-) EventReactorShutdown: {}

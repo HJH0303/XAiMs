@@ -1,0 +1,1 @@
+/home/aims_xavier/XAiMs/XAiMS_ws/build/imu_bno055/ament_cmake_environment_hooks/local_setup.sh

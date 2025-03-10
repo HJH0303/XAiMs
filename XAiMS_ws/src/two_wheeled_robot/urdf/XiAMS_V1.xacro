@@ -1,0 +1,550 @@
+<?xml version="1.0" ?>
+<robot name="XiAMS_V1" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find two_wheeled_robot)/urdf/materials.xacro" />
+<xacro:include filename="$(find two_wheeled_robot)/urdf/XiAMS_V1.trans" />
+<xacro:include filename="$(find two_wheeled_robot)/urdf/XiAMS_V1.gazebo" />
+<link name="base_footprint"/>
+
+<joint name="base_joint" type="fixed">
+  <parent link="base_footprint"/>
+  <child link="base_link"/>
+  <origin xyz="0.0 0.0 0.010" rpy="0 0 0"/>
+</joint>
+<link name="base_link">
+  <inertial>
+    <origin xyz="-1.2122057928679926e-16 -5.497357486465651e-05 0.010376885485705058" rpy="0 0 0"/>
+    <mass value="7.067644900814269"/>
+    <inertia ixx="0.093666" iyy="0.075527" izz="0.169042" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="-0.010316984778108496 -2.131945403625303e-15 1.734723475976807e-17" rpy="0 0 0"/>
+    <mass value="1.2911020276896104"/>
+    <inertia ixx="0.002581" iyy="0.001382" izz="0.001382" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.1379 -0.0 -0.004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.1379 -0.0 -0.004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="0.010316984778108551 2.16747250653199e-15 3.729655473350135e-17" rpy="0 0 0"/>
+    <mass value="1.2911020276896104"/>
+    <inertia ixx="0.002581" iyy="0.001382" izz="0.001382" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1379 -0.0 -0.004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1379 -0.0 -0.004" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_motor_1">
+  <inertial>
+    <origin xyz="0.06241474724398801 -1.1016991190206776e-06 -0.003760243066514766" rpy="0 0 0"/>
+    <mass value="0.8778384692401996"/>
+    <inertia ixx="0.000207" iyy="0.000915" izz="0.000858" ixy="0.0" iyz="0.0" ixz="-6.5e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.01 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/right_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.01 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/right_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_motor">
+  <inertial>
+    <origin xyz="-0.062414747243987996 1.101699119055656e-06 -0.003760243066514766" rpy="0 0 0"/>
+    <mass value="0.8778384692401996"/>
+    <inertia ixx="0.000207" iyy="0.000915" izz="0.000858" ixy="0.0" iyz="-0.0" ixz="6.5e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.01 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.01 -0.0 -0.01" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="sup_wheel_2_1">
+  <inertial>
+    <origin xyz="0.00724739238935411 -0.010120109660515852 -0.02715206764557417" rpy="0 0 0"/>
+    <mass value="0.2827684462745871"/>
+    <inertia ixx="0.000143" iyy="0.000126" izz="5.7e-05" ixy="0.0" iyz="2.7e-05" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.073333 -0.168856 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.073333 -0.168856 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="sup_wheel_1_1">
+  <inertial>
+    <origin xyz="0.02039356631856591 0.004831947677011422 -0.027152067645574162" rpy="0 0 0"/>
+    <mass value="0.2827684462745871"/>
+    <inertia ixx="0.000143" iyy="0.000126" izz="5.7e-05" ixy="0.0" iyz="2.7e-05" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.099579 -0.154083 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.099579 -0.154083 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="sup_wheel_3_1">
+  <inertial>
+    <origin xyz="0.000862792672768703 0.008679037903527004 -0.02715206764557417" rpy="0 0 0"/>
+    <mass value="0.2827684462745871"/>
+    <inertia ixx="0.000143" iyy="0.000126" izz="5.7e-05" ixy="0.0" iyz="2.7e-05" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.08 0.15 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.08 0.15 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="sup_wheel_4_1">
+  <inertial>
+    <origin xyz="0.000716440208126376 0.009226546426515103 -0.02715206764557417" rpy="0 0 0"/>
+    <mass value="0.2827684462745871"/>
+    <inertia ixx="0.000143" iyy="0.000126" izz="5.7e-05" ixy="0.0" iyz="2.7e-05" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.08 0.15 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.08 0.15 -0.005" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/sup_wheel_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_1_1">
+  <inertial>
+    <origin xyz="0.005150943149875242 0.00029975860448801933 0.032999999999999814" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.8e-05" iyy="3.7e-05" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.073333 0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.073333 0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_2_1">
+  <inertial>
+    <origin xyz="-0.006043277250849216 0.00017198325512216006 0.030999999999999812" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.8e-05" iyy="3.7e-05" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.073333 0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.073333 0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_3_1">
+  <inertial>
+    <origin xyz="-1.0459630267536935e-05 -0.015181423914343836 0.030999999999999812" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.8e-05" iyy="3.7e-05" izz="5e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.078889 -0.056316 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.078889 -0.056316 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_4_1">
+  <inertial>
+    <origin xyz="-0.005999555555578892 -3.684210526447296e-07 0.030999999999999812" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.8e-05" iyy="3.7e-05" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.084444 -0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.084444 -0.041053 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="base_link2_1">
+  <inertial>
+    <origin xyz="1.5416149327040268e-06 -7.385320557817198e-08 0.0644033025552961" rpy="0 0 0"/>
+    <mass value="6.703012617628762"/>
+    <inertia ixx="0.045857" iyy="0.040773" izz="0.085176" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.015" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_5_1">
+  <inertial>
+    <origin xyz="0.048050222222234255 0.0002503684210331328 -0.04300000000000004" rpy="0 0 0"/>
+    <mass value="0.06861920498763414"/>
+    <inertia ixx="3.8e-05" iyy="3.9e-05" izz="5e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.052222 0.041053 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.052222 0.041053 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_5_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_6_1">
+  <inertial>
+    <origin xyz="-0.0424497777777972 -0.00490047368422257 -0.04300000000000004" rpy="0 0 0"/>
+    <mass value="0.06861920498763414"/>
+    <inertia ixx="3.9e-05" iyy="3.8e-05" izz="5e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.057778 0.035789 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.057778 0.035789 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_6_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_7_1">
+  <inertial>
+    <origin xyz="0.042514934933003394 0.015040063199609752 -0.043000000000000094" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.7e-05" iyy="3.7e-05" izz="5e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.057778 -0.046316 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.057778 -0.046316 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_7_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="column_8_1">
+  <inertial>
+    <origin xyz="-0.03628574207457701 6.19714320574602e-05 -0.043000000000000094" rpy="0 0 0"/>
+    <mass value="0.06713817165430098"/>
+    <inertia ixx="3.7e-05" iyy="3.7e-05" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.063333 -0.061579 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.063333 -0.061579 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/column_8_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="base_link3_1">
+  <inertial>
+    <origin xyz="0.0 4.0481340199487946e-17 -0.006999999999999923" rpy="0 0 0"/>
+    <mass value="3.142708479532165"/>
+    <inertia ixx="0.014068" iyy="0.01405" izz="0.028066" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 0.0 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 0.0 -0.163" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/base_link3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_link_1">
+  <inertial>
+    <origin xyz="0.00027795145072157185 -3.487106368435207e-05 0.019472184630013295" rpy="0 0 0"/>
+    <mass value="1.2342397492534263"/>
+    <inertia ixx="0.000557" iyy="0.000545" izz="0.000781" ixy="1e-06" iyz="-2e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.089" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.089" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://two_wheeled_robot/meshes/lidar_link_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute 1" type="continuous">
+  <origin xyz="-0.1279 0.0 -0.006" rpy="0 0 0"/>
+  <parent link="left_motor_1"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Revolute 2" type="continuous">
+  <origin xyz="0.1279 0.0 -0.006" rpy="0 0 0"/>
+  <parent link="right_motor_1"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rigid 3" type="fixed">
+  <origin xyz="0.01 0.0 0.01" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_motor_1"/>
+</joint>
+
+<joint name="Rigid 4" type="fixed">
+  <origin xyz="-0.01 0.0 0.01" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_motor_1"/>
+</joint>
+
+<joint name="Rigid 6" type="fixed">
+  <origin xyz="0.073333 0.168856 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="sup_wheel_2_1"/>
+</joint>
+
+<joint name="Rigid 7" type="fixed">
+  <origin xyz="-0.099579 0.154083 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="sup_wheel_1_1"/>
+</joint>
+
+<joint name="Rigid 8" type="fixed">
+  <origin xyz="-0.08 -0.15 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="sup_wheel_3_1"/>
+</joint>
+
+<joint name="Rigid 9" type="fixed">
+  <origin xyz="0.08 -0.15 0.005" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="sup_wheel_4_1"/>
+</joint>
+
+<joint name="Rigid 11" type="fixed">
+  <origin xyz="0.073333 -0.041053 0.015" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="column_1_1"/>
+</joint>
+
+<joint name="Rigid 12" type="fixed">
+  <origin xyz="-0.073333 -0.041053 0.015" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="column_2_1"/>
+</joint>
+
+<joint name="Rigid 13" type="fixed">
+  <origin xyz="-0.078889 0.056316 0.015" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="column_3_1"/>
+</joint>
+
+<joint name="Rigid 15" type="fixed">
+  <origin xyz="0.084444 0.041053 0.015" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="column_4_1"/>
+</joint>
+
+<joint name="Rigid 16" type="fixed">
+  <origin xyz="0.0 0.0 0.015" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="base_link2_1"/>
+</joint>
+
+<joint name="Rigid 17" type="fixed">
+  <origin xyz="0.052222 -0.041053 0.148" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="column_5_1"/>
+</joint>
+
+<joint name="Rigid 18" type="fixed">
+  <origin xyz="-0.057778 -0.035789 0.148" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="column_6_1"/>
+</joint>
+
+<joint name="Rigid 19" type="fixed">
+  <origin xyz="0.057778 0.046316 0.148" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="column_7_1"/>
+</joint>
+
+<joint name="Rigid 20" type="fixed">
+  <origin xyz="-0.063333 0.061579 0.148" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="column_8_1"/>
+</joint>
+
+<joint name="Rigid 21" type="fixed">
+  <origin xyz="0.0 -0.0 0.148" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="base_link3_1"/>
+</joint>
+
+<joint name="Rigid 22" type="fixed">
+  <origin xyz="0.0 0.0 0.074" rpy="0 0 0"/>
+  <parent link="base_link2_1"/>
+  <child link="lidar_link_1"/>
+</joint>
+
+</robot>

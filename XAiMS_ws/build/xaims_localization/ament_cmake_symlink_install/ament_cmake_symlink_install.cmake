@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/aimsrog/XAiMs/XAiMS_ws/install/xaims_localization/${destination}")
+      set(destination "/home/aims_xavier/XAiMs/XAiMS_ws/install/xaims_localization/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,52 +311,58 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "rviz_click_to_2d" "DESTINATION" "lib/xaims_localization")
-include("/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "ekf_odom_pub" "DESTINATION" "lib/xaims_localization")
-include("/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "launch" "rviz" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_directory("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" DIRECTORY "launch" "rviz" "DESTINATION" "share/xaims_localization")
+# install("TARGETS" "odom_data_saver" "DESTINATION" "lib/xaims_localization")
+include("/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xaims_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xaims_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install("TARGETS" "pose_estimate_publisher" "DESTINATION" "lib/xaims_localization")
+include("/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xaims_localization" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xaims_localization" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(DIRECTORY "launch" "rviz" "params" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_directory("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" DIRECTORY "launch" "rviz" "params" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/xaims_localization/environment")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/xaims_localization/environment")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xaims_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xaims_localization" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/xaims_localization/environment")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/xaims_localization/environment")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xaims_localization" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xaims_localization" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/xaims_localization/environment")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/xaims_localization/environment")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/xaims_localization/environment")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/xaims_localization/environment")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/xaims_localization/environment")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/xaims_localization/environment")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/xaims_localization/environment")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/xaims_localization/environment")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/xaims_localization")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/xaims_localization/environment")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/xaims_localization/environment")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/xaims_localization")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/xaims_localization/environment")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/xaims_localization/environment")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/xaims_localization")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/xaims_localization")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/xaims_localization")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/packages/xaims_localization" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/packages/xaims_localization" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig.cmake" "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig-version.cmake" "DESTINATION" "share/xaims_localization/cmake")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig.cmake" "/home/aimsrog/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig-version.cmake" "DESTINATION" "share/xaims_localization/cmake")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/xaims_localization")
 
-# install(FILES "/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/package.xml" "DESTINATION" "share/xaims_localization")
-ament_cmake_symlink_install_files("/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aimsrog/XAiMs/XAiMS_ws/src/xaims_localization/package.xml" "DESTINATION" "share/xaims_localization")
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/packages/xaims_localization" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_index/share/ament_index/resource_index/packages/xaims_localization" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig.cmake" "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig-version.cmake" "DESTINATION" "share/xaims_localization/cmake")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig.cmake" "/home/aims_xavier/XAiMs/XAiMS_ws/build/xaims_localization/ament_cmake_core/xaims_localizationConfig-version.cmake" "DESTINATION" "share/xaims_localization/cmake")
+
+# install(FILES "/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/package.xml" "DESTINATION" "share/xaims_localization")
+ament_cmake_symlink_install_files("/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization" FILES "/home/aims_xavier/XAiMs/XAiMS_ws/src/xaims_localization/package.xml" "DESTINATION" "share/xaims_localization")
